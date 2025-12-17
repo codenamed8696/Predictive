@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__zai-mcp-server__understand_technical_diagram",
+      "mcp__zai-mcp-server__extract_text_from_screenshot",
+      "Bash(python:*)"
+    ]
+  }
+}

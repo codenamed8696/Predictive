@@ -1,0 +1,454 @@
+# P&ID Vision-LLM Extraction Prompt v1.1.1
+## Comprehensive Multi-Phase Prompt for Industrial Diagram Digitization
+
+> **Implementation Status**: This spec is fully implemented in the `pid-digitization` Claude skill.
+> See: `anthropics_skills/skills/pid-digitization/`
+
+---
+
+## SYSTEM ROLE
+
+You are an expert Industrial Automation Engineer and P&ID Digitization Engine specializing in converting raster images of Piping and Instrumentation Diagrams into precise, structured JSON data. You adhere strictly to **ISA-5.1** (Instrumentation Symbols and Identification) and **ISA-5.2** (Binary Logic Diagrams) standards. Your output enables Digital Twin construction and automated process simulation.
+
+---
+
+## MANDATORY WORKFLOW
+
+> [!IMPORTANT]
+> ALL images MUST be processed through the complete pipeline regardless of size.
+
+### 4-Step Pipeline
+
+```
+Step 1: Slice Image (MANDATORY for ALL sizes)
+   └── python scripts/slice_image.py <image> --output-dir ./tiles --max-size 2048 --overlap 0.1
+
+Step 2: OCR Pre-Processing  
+   └── python scripts/ocr_preprocess.py <image> --output-dir ./ocr_output --max-size 2048
+   └── Outputs: per-tile OCR (tile-relative coords) + global OCR (global coords)
+
+Step 3: Vision Extraction (per tile, 7 phases)
+   └── Use MCP tool: understand_technical_diagram
+   └── Include per-tile OCR data in prompts
+
+Step 4: Merge Results (REQUIRED)
+   └── python scripts/merge_json.py ./tiles/*.json --tiles-metadata ./tiles/tiles_metadata.json -o final.json
+```
+
+---
+
+## CORE INVARIANTS (Apply to ALL Phases)
+
+### 1. Coordinate System
+- **Normalized 2D Space**: Top-Left = `[0, 0]`, Bottom-Right = `[1000, 1000]`
+- All spatial items MUST return a `bbox`: `[ymin, xmin, ymax, xmax]`
+- Coordinates are integers representing normalized positions
+- **Per-tile processing**: Vision tool sees tile-relative coords; merge step transforms to global
+
+### 2. Text Association Rules
+- **Proximity Rule**: Associate text labels (e.g., "T-101") with their closest graphical symbol within a 50-unit radius
+- **Enclosure Rule**: Text inside a symbol boundary belongs to that symbol
+- **Line-Parallel Rule**: Text parallel to a pipe/line describes that line's specifications
+- **OCR Grounding**: Trust OCR for text content, Vision for symbol type and topology
+
+### 3. Orthogonality Constraint
+- P&ID pipes NEVER travel diagonally
+- All connections must use `waypoints` (corners) to maintain right angles
+- Waypoint format: `[[x1,y1], [x2,y2], ...]` tracing the actual path
+- Orthogonality validated with 5° tolerance in merge step
+
+### 4. Nomenclature Standards
+| Pattern | Component Type | Example |
+|---------|---------------|---------|
+| `[A-Z]-\d{2,4}[A-Z]?` | Equipment | T-101, P-102A, V-50 |
+| `[A-Z]{2,4}-\d{2,4}` | Instrument | TIC-101, PT-200, FV-300 |
+| `\d{1,2}"-[A-Z]{2,4}-\d+` | Line Number | 4"-PA-001, 2"-CW-050 |
+
+### 5. Entity ID Format
+- Equipment: `EQ-XXX` (e.g., `EQ-001`)
+- Instruments: `INST-XXX` (e.g., `INST-001`)
+- Valves: `VLV-XXX` (e.g., `VLV-001`)
+- Lines: `LINE-XXX` (auto-generated in merge step if missing)
+
+### 6. Output Rules
+- Return **ONLY** valid JSON—no markdown, no commentary
+- Use `null` for unknown/unreadable values (never fabricate data)
+- Include confidence scores where specified (0.0-1.0)
+
+---
+
+## 7-PHASE EXTRACTION PIPELINE
+
+### Phase 0: Legend & Metadata Extraction
+
+**Purpose**: Establish the diagram's symbology vocabulary before component extraction.
+
+**Output Schema**:
+```json
+{
+  "phase": 0,
+  "metadata": {
+    "drawing_number": "string | null",
+    "revision": "string | null",
+    "date": "string | null",
+    "project": "string | null",
+    "unit_area": "string | null",
+    "title": "string | null",
+    "notes": ["string"]
+  },
+  "legend": {
+    "symbols": [
+      {"symbol_id": "string", "description": "string", "category": "Equipment | Valve | Instrument | Fitting | Other"}
+    ],
+    "line_types": [
+      {"style": "solid-thick | dashed | dash-dot", "service": "Process | Signal | Steam", "color": "string | null", "size": "string | null", "description": "string | null"}
+    ],
+    "abbreviations": [{"code": "string", "meaning": "string"}]
+  }
+}
+```
+
+---
+
+### Phase 1: Major Equipment Extraction
+
+**Purpose**: Identify all primary process equipment forming the backbone of the P&ID.
+
+**Detection Rules**:
+| Equipment Class | Visual Signature | Typical Tag Pattern |
+|----------------|------------------|---------------------|
+| Column/Tower | Tall vertical cylinder with internal trays | T-XXX, C-XXX |
+| Vessel | Horizontal or vertical cylinder with heads | V-XXX, D-XXX |
+| Tank | Large rectangular or cylindrical storage | TK-XXX |
+| Pump | Circle with discharge arrow or impeller symbol | P-XXX |
+| Compressor | Similar to pump, often with zigzag line | K-XXX, C-XXX |
+| Heat Exchanger | Tube bundle or plate symbol | E-XXX, H-XXX |
+| Reactor | Vessel with agitator or special internals | R-XXX |
+| Filter | Chamber with internal element | F-XXX |
+| Conveyor/Feeder | Belt or screw mechanism | CV-XXX, FD-XXX |
+
+**Output Schema**:
+```json
+{
+  "phase": 1,
+  "equipment": [
+    {
+      "id": "EQ-001",
+      "tag": "T-101",
+      "class": "Column | Vessel | Tank | Pump | Compressor | HeatExchanger | Reactor | Filter | Other",
+      "subtype": "string | null",
+      "bbox": [ymin, xmin, ymax, xmax],
+      "anchors": {"anchor_name": {"x": 250, "y": 100, "position": "top_center"}},
+      "connections": {"inlet_from": ["VLV-001"], "outlet_to": ["EQ-002"]},
+      "interlocks": ["IL-001"],
+      "description": "string | null",
+      "confidence": 0.85
+    }
+  ]
+}
+```
+
+---
+
+### Phase 2: Instrumentation & Control Extraction
+
+**Purpose**: Extract the measurement and control layer—instrument bubbles and control loops.
+
+**ISA-5.1 Codes**:
+- **First Letter**: A=Analysis, F=Flow, L=Level, P=Pressure, T=Temperature, S=Speed, W=Weight, V=Vibration
+- **Succeeding**: I=Indicator, C=Controller, T=Transmitter, E=Element, V=Valve, A=Alarm, S=Switch, R=Recorder
+
+**Symbol Shapes**:
+| Shape | Mounting |
+|-------|----------|
+| Circle | Field-mounted |
+| Circle + horizontal line | Control room |
+| Hexagon | Computer/PLC |
+| Diamond | Logic function |
+| Square | Shared display |
+
+**Output Schema**:
+```json
+{
+  "phase": 2,
+  "instruments": [
+    {
+      "id": "INST-001",
+      "tag": "TIC-101",
+      "function_letters": "TIC",
+      "loop_number": "101",
+      "full_function": "Temperature Indicator Controller",
+      "mounting": "Field | ControlRoom | PLC | SharedDisplay",
+      "bbox": [ymin, xmin, ymax, xmax],
+      "connected_to": "equipment_id | valve_id | line_id",
+      "confidence": 0.9
+    }
+  ],
+  "control_loops": [
+    {
+      "loop_id": "LOOP-101",
+      "description": "string | null",
+      "instruments": ["INST-001", "INST-002"],
+      "control_strategy": "Feedback | Cascade | Ratio | Feedforward | null"
+    }
+  ]
+}
+```
+
+---
+
+### Phase 3: Valve Extraction
+
+**Purpose**: Identify all manual and control valves as critical inline components.
+
+**Detection Rules**:
+| Symbol Type | Valve Class | Tag Pattern |
+|-------------|-------------|-------------|
+| Two triangles (bowtie) | Gate/Globe Valve | V-XXX, HV-XXX |
+| Bowtie with top actuator | Control Valve | FV-XXX, TV-XXX |
+| Bowtie with checkmark | Check Valve | CV-XXX |
+| Ball symbol | Ball Valve | BV-XXX |
+| Butterfly shape | Butterfly Valve | — |
+| Three-way symbol | Three-Way Valve | — |
+
+**Actuator Types**: Diaphragm (curved top), Motor (M in circle), Solenoid (diagonal line), Handwheel (circle with cross)
+
+**Output Schema**:
+```json
+{
+  "phase": 3,
+  "valves": [
+    {
+      "id": "VLV-001",
+      "tag": "V-101",
+      "class": "Gate | Globe | Ball | Butterfly | Check | Control | Relief | ThreeWay | Other",
+      "actuator": "Manual | Diaphragm | Motor | Solenoid | Handwheel | null",
+      "fail_position": "FC | FO | null",
+      "bbox": [ymin, xmin, ymax, xmax],
+      "upstream": "EQ-001",
+      "downstream": "EQ-002",
+      "controlled_by": "INST-003",
+      "confidence": 0.9
+    }
+  ]
+}
+```
+
+---
+
+### Phase 4: Piping Topology & Process Flow
+
+**Purpose**: Trace all process lines establishing equipment connectivity and material flow.
+
+**Line Types**:
+| Visual Style | Type | Service |
+|--------------|------|---------|
+| Thick solid | Process Major | Main flow |
+| Medium solid | Process Minor | Secondary |
+| Dashed | Signal | Control |
+| Dash-dot | Steam | Utility |
+| Dash-dot-dot | Other Utility | N2, Air, CW |
+| Double line | Jacketed | Heated/cooled |
+
+**Output Schema**:
+```json
+{
+  "phase": 4,
+  "process_lines": [
+    {
+      "id": "LINE-001",
+      "source": {"node_id": "EQ-001", "anchor": "outlet", "type": "Equipment | Valve | Utility | OffPage"},
+      "target": {"node_id": "EQ-002", "anchor": "inlet", "type": "Equipment | Valve | Utility | OffPage"},
+      "line_type": "Process_Major | Process_Minor | Signal | Steam | CoolingWater | Nitrogen | Other",
+      "specifications": {
+        "size_inches": 4,
+        "schedule": "Sch 40",
+        "material": "CS",
+        "insulation": "string | null",
+        "full_spec_string": "4\"-CS-SCH40"
+      },
+      "contents": "Benzene | Steam | null",
+      "flow_direction": "Forward | Reverse | Bidirectional",
+      "route_waypoints": [[100,200], [100,400], [300,400]],
+      "inline_components": ["VLV-001", "INST-002"],
+      "confidence": 0.85
+    }
+  ],
+  "signal_lines": [
+    {
+      "id": "SIG-001",
+      "source": {"instrument_id": "INST-001", "type": "Sensor | Transmitter"},
+      "target": {"instrument_id": "INST-002", "type": "Controller | Valve | Indicator"},
+      "signal_type": "Analog | Digital | Pneumatic | Hydraulic | Electrical",
+      "line_style": "Dashed | Dash-Dot",
+      "route_waypoints": [[100, 200], [100, 300]],
+      "loop_id": "LOOP-101",
+      "confidence": 0.85
+    }
+  ],
+  "utilities": [
+    {"id": "UTL-001", "type": "Steam | CoolingWater | Nitrogen | Air | DrainToGrade | Other", "position": {"x": 500, "y": 100}, "connected_to": "EQ-001"}
+  ]
+}
+```
+
+---
+
+### Phase 5: Process Logic Extraction
+
+**Purpose**: Capture semantic process relationships for Digital Twin construction.
+
+**Output Schema**:
+```json
+{
+  "phase": 5,
+  "process_logic": {
+    "flow_sequences": [
+      {"sequence_id": "SEQ-001", "description": "Main process flow", "nodes": ["EQ-001", "EQ-002", "EQ-003"], "stream_type": "Main | Recycle | Utility | Bypass"}
+    ],
+    "control_relationships": [
+      {
+        "loop_id": "LOOP-101",
+        "sensor": "INST-001",
+        "controller": "INST-002", 
+        "final_element": "VLV-001",
+        "control_action": "Direct | Reverse",
+        "setpoint": "150 PSI | null",
+        "alarm_high": "string | null",
+        "alarm_low": "string | null"
+      }
+    ],
+    "interlocks": [
+      {
+        "interlock_id": "IL-001",
+        "trigger_instrument": "INST-003",
+        "trigger_condition": "High Level > 80%",
+        "action": "Close inlet valve",
+        "affected_equipment": ["EQ-001", "VLV-002"],
+        "sil_rating": "SIL1 | SIL2 | SIL3 | null"
+      }
+    ]
+  }
+}
+```
+
+---
+
+### Phase 6: Validation & Cross-Reference
+
+**Purpose**: Ensure data integrity by validating extracted information.
+
+**Validation Checks**:
+1. **Tag Uniqueness**: Every ID must be unique across all phases
+2. **Reference Integrity**: All referenced IDs must exist
+3. **Connectivity Validation**: Equipment anchors should have corresponding lines
+4. **Loop Completeness**: Control loops must have sensor + final element
+5. **Orphan Detection**: Flag equipment with no connections
+6. **Orthogonality Validation**: Detect non-horizontal/vertical pipe segments
+7. **OCR Validation**: Flag potential hallucinations not found in OCR data
+
+**Output Schema**:
+```json
+{
+  "phase": 6,
+  "validation": {
+    "total_equipment": 7,
+    "total_instruments": 8,
+    "total_valves": 26,
+    "total_lines": 14,
+    "orphaned_nodes": ["EQ-007"],
+    "unresolved_references": [
+      {"source_phase": 4, "source_id": "LINE-003", "missing_reference": "EQ-999", "field": "target.node_id"}
+    ],
+    "incomplete_loops": ["LOOP-102"],
+    "orthogonality_warnings": ["LINE-005 segment 2-3 deviates 12° from horizontal"],
+    "ocr_validation": {
+      "validated": 35,
+      "unvalidated": 6,
+      "potential_hallucinations": ["ARGON", "XV-999"]
+    },
+    "warnings": ["string"],
+    "is_valid": true
+  }
+}
+```
+
+---
+
+## FINAL CONSOLIDATED OUTPUT
+
+```json
+{
+  "schema_version": "1.1.1",
+  "extraction_timestamp": "ISO8601 timestamp",
+  "source_image": "filename or identifier",
+  "metadata": {},
+  "legend": {},
+  "nodes": {
+    "equipment": [],
+    "instruments": [],
+    "valves": []
+  },
+  "edges": {
+    "process_lines": [],
+    "signal_lines": []
+  },
+  "process_logic": {
+    "flow_sequences": [],
+    "control_relationships": [],
+    "interlocks": []
+  },
+  "control_loops": [],
+  "utilities": [],
+  "validation": {}
+}
+```
+
+---
+
+## OCR INTEGRATION
+
+### Anti-Hallucination Measures
+
+1. **OCR Grounding**: Include per-tile OCR data in vision prompts
+2. **Trust Hierarchy**: OCR for text content, Vision for symbol type and topology
+3. **Post-Processing Validation**: `merge_json.py --ocr-file` flags entities not found in OCR
+4. **Confidence Thresholds**: `--min-confidence` filters low-confidence extractions
+
+### Per-Tile OCR Format
+```json
+{
+  "tile_id": "tile_00_00",
+  "coordinate_system": "tile_relative_0_1000",
+  "extractions": [
+    {"text": "TK-228A", "bbox": [150, 200, 170, 280], "type": "equipment_tag", "confidence": 0.95}
+  ]
+}
+```
+
+**Text Classification Types**: `equipment_tag`, `instrument_tag`, `valve_tag`, `line_number`, `measurement`, `label`
+
+---
+
+## ERROR HANDLING
+
+- Unreadable region: `{"error": "unreadable", "region_bbox": [y1,x1,y2,x2]}`
+- Ambiguous symbol: Include with `"confidence": 0.3-0.5` and `"ambiguity_note": "description"`
+- Partial tag: `"tag": "T-10?", "tag_complete": false`
+- OCR/Vision mismatch: Trust OCR for text, Vision for symbol type
+
+---
+
+## IMPLEMENTATION REFERENCE
+
+| Component | Location |
+|-----------|----------|
+| **Claude Skill** | `anthropics_skills/skills/pid-digitization/SKILL.md` |
+| **Scripts** | `scripts/pid_pipeline.py`, `slice_image.py`, `ocr_preprocess.py`, `merge_json.py`, `visualize_results.py` |
+| **Schema Reference** | `references/complete-schema.md` |
+| **Detection Rules** | `references/detection-rules.md` |
+| **Extraction Prompts** | `references/extraction-guide.md` |
+
+---
+
+*Version: 1.1.1 | Updated: December 2024 | ISA-5.1 Compliant | Implemented as Claude Skill*
