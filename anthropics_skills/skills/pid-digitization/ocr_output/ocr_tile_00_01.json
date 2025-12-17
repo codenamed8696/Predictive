@@ -1,0 +1,303 @@
+{
+  "tile_id": "tile_00_01",
+  "coordinate_system": "tile_relative_0_1000",
+  "tile_size": {
+    "width": 1866,
+    "height": 1667
+  },
+  "tile_position_global": {
+    "x1": 1528,
+    "y1": 0,
+    "x2": 3394,
+    "y2": 1667
+  },
+  "total_detections": 26,
+  "extractions": [
+    {
+      "text": "8",
+      "bbox": [
+        26,
+        490,
+        32,
+        506
+      ],
+      "type": "label",
+      "confidence": 0.152
+    },
+    {
+      "text": "SAMPLE",
+      "bbox": [
+        193,
+        0,
+        203,
+        38
+      ],
+      "type": "label",
+      "confidence": 0.998
+    },
+    {
+      "text": "OR COOLANT",
+      "bbox": [
+        200,
+        0,
+        213,
+        68
+      ],
+      "type": "label",
+      "confidence": 0.988
+    },
+    {
+      "text": "OPS1& 3",
+      "bbox": [
+        211,
+        0,
+        223,
+        60
+      ],
+      "type": "label",
+      "confidence": 0.876
+    },
+    {
+      "text": "20518",
+      "bbox": [
+        223,
+        1,
+        239,
+        39
+      ],
+      "type": "label",
+      "confidence": 0.981
+    },
+    {
+      "text": "(E-8)",
+      "bbox": [
+        239,
+        15,
+        254,
+        46
+      ],
+      "type": "label",
+      "confidence": 0.991
+    },
+    {
+      "text": "3",
+      "bbox": [
+        274,
+        590,
+        289,
+        602
+      ],
+      "type": "label",
+      "confidence": 0.114
+    },
+    {
+      "text": "POST",
+      "bbox": [
+        506,
+        292,
+        521,
+        322
+      ],
+      "type": "label",
+      "confidence": 0.995
+    },
+    {
+      "text": "ACCIDENT",
+      "bbox": [
+        518,
+        282,
+        533,
+        333
+      ],
+      "type": "label",
+      "confidence": 0.993
+    },
+    {
+      "text": "SAMPLE",
+      "bbox": [
+        530,
+        288,
+        545,
+        330
+      ],
+      "type": "label",
+      "confidence": 0.998
+    },
+    {
+      "text": "SYSTEM HX.",
+      "bbox": [
+        541,
+        279,
+        557,
+        342
+      ],
+      "type": "label",
+      "confidence": 0.954
+    },
+    {
+      "text": "E-186",
+      "bbox": [
+        554,
+        294,
+        569,
+        327
+      ],
+      "type": "equipment_tag",
+      "confidence": 0.992
+    },
+    {
+      "text": "3/8\"T",
+      "bbox": [
+        591,
+        135,
+        607,
+        166
+      ],
+      "type": "label",
+      "confidence": 0.811
+    },
+    {
+      "text": "CC LOOP A",
+      "bbox": [
+        613,
+        78,
+        631,
+        135
+      ],
+      "type": "label",
+      "confidence": 0.962
+    },
+    {
+      "text": "cc-1",
+      "bbox": [
+        619,
+        299,
+        637,
+        329
+      ],
+      "type": "label",
+      "confidence": 0.85
+    },
+    {
+      "text": "CC LOOP A",
+      "bbox": [
+        614,
+        367,
+        631,
+        428
+      ],
+      "type": "label",
+      "confidence": 0.989
+    },
+    {
+      "text": "cC-1",
+      "bbox": [
+        620,
+        192,
+        636,
+        222
+      ],
+      "type": "label",
+      "confidence": 0.866
+    },
+    {
+      "text": "IA-5)",
+      "bbox": [
+        632,
+        32,
+        646,
+        58
+      ],
+      "type": "label",
+      "confidence": 0.886
+    },
+    {
+      "text": "20205",
+      "bbox": [
+        628,
+        92,
+        645,
+        125
+      ],
+      "type": "label",
+      "confidence": 0.982
+    },
+    {
+      "text": "28205",
+      "bbox": [
+        630,
+        381,
+        646,
+        417
+      ],
+      "type": "label",
+      "confidence": 0.975
+    },
+    {
+      "text": "(A-5)",
+      "bbox": [
+        629,
+        441,
+        644,
+        469
+      ],
+      "type": "label",
+      "confidence": 0.978
+    },
+    {
+      "text": "DM-3/8T",
+      "bbox": [
+        854,
+        68,
+        871,
+        116
+      ],
+      "type": "label",
+      "confidence": 0.978
+    },
+    {
+      "text": "DEMIN. SYSTEM",
+      "bbox": [
+        851,
+        139,
+        869,
+        214
+      ],
+      "type": "label",
+      "confidence": 0.965
+    },
+    {
+      "text": "20350",
+      "bbox": [
+        868,
+        166,
+        881,
+        199
+      ],
+      "type": "label",
+      "confidence": 0.898
+    },
+    {
+      "text": "10-7)",
+      "bbox": [
+        868,
+        221,
+        881,
+        249
+      ],
+      "type": "label",
+      "confidence": 0.854
+    },
+    {
+      "text": "2322",
+      "bbox": [
+        878,
+        30,
+        893,
+        57
+      ],
+      "type": "label",
+      "confidence": 0.915
+    }
+  ]
+}

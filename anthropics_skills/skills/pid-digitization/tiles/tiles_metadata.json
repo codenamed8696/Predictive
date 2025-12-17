@@ -1,0 +1,117 @@
+{
+  "source_image": "../../../Sample_page_1.png",
+  "original_size": {
+    "width": 3394,
+    "height": 3031
+  },
+  "sliced": true,
+  "grid": {
+    "rows": 2,
+    "cols": 2
+  },
+  "max_tile_size": 2048,
+  "overlap_percent": 0.1,
+  "total_tiles": 4,
+  "tiles": [
+    {
+      "tile_id": 0,
+      "filename": "tile_00_00.png",
+      "path": "tiles\\tile_00_00.png",
+      "grid_position": {
+        "row": 0,
+        "col": 0
+      },
+      "pixel_bbox": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 1866,
+        "y2": 1667
+      },
+      "normalized_bbox": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 549,
+        "y2": 549
+      },
+      "size": {
+        "width": 1866,
+        "height": 1667
+      }
+    },
+    {
+      "tile_id": 1,
+      "filename": "tile_00_01.png",
+      "path": "tiles\\tile_00_01.png",
+      "grid_position": {
+        "row": 0,
+        "col": 1
+      },
+      "pixel_bbox": {
+        "x1": 1528,
+        "y1": 0,
+        "x2": 3394,
+        "y2": 1667
+      },
+      "normalized_bbox": {
+        "x1": 450,
+        "y1": 0,
+        "x2": 1000,
+        "y2": 549
+      },
+      "size": {
+        "width": 1866,
+        "height": 1667
+      }
+    },
+    {
+      "tile_id": 2,
+      "filename": "tile_01_00.png",
+      "path": "tiles\\tile_01_00.png",
+      "grid_position": {
+        "row": 1,
+        "col": 0
+      },
+      "pixel_bbox": {
+        "x1": 0,
+        "y1": 1365,
+        "x2": 1866,
+        "y2": 3031
+      },
+      "normalized_bbox": {
+        "x1": 0,
+        "y1": 450,
+        "x2": 549,
+        "y2": 1000
+      },
+      "size": {
+        "width": 1866,
+        "height": 1666
+      }
+    },
+    {
+      "tile_id": 3,
+      "filename": "tile_01_01.png",
+      "path": "tiles\\tile_01_01.png",
+      "grid_position": {
+        "row": 1,
+        "col": 1
+      },
+      "pixel_bbox": {
+        "x1": 1528,
+        "y1": 1365,
+        "x2": 3394,
+        "y2": 3031
+      },
+      "normalized_bbox": {
+        "x1": 450,
+        "y1": 450,
+        "x2": 1000,
+        "y2": 1000
+      },
+      "size": {
+        "width": 1866,
+        "height": 1666
+      }
+    }
+  ]
+}

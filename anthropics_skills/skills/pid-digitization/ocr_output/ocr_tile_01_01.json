@@ -1,0 +1,941 @@
+{
+  "tile_id": "tile_01_01",
+  "coordinate_system": "tile_relative_0_1000",
+  "tile_size": {
+    "width": 1866,
+    "height": 1666
+  },
+  "tile_position_global": {
+    "x1": 1528,
+    "y1": 1365,
+    "x2": 3394,
+    "y2": 3031
+  },
+  "total_detections": 84,
+  "extractions": [
+    {
+      "text": "SAMPLE CASK",
+      "bbox": [
+        0,
+        390,
+        78,
+        412
+      ],
+      "type": "label",
+      "confidence": 0.998
+    },
+    {
+      "text": "TK-2288",
+      "bbox": [
+        10,
+        378,
+        64,
+        397
+      ],
+      "type": "instrument_tag",
+      "confidence": 0.989
+    },
+    {
+      "text": "98988",
+      "bbox": [
+        47,
+        444,
+        87,
+        460
+      ],
+      "type": "label",
+      "confidence": 0.861
+    },
+    {
+      "text": "LL4",
+      "bbox": [
+        46,
+        457,
+        85,
+        477
+      ],
+      "type": "label",
+      "confidence": 0.24
+    },
+    {
+      "text": "MM-585",
+      "bbox": [
+        94,
+        527,
+        142,
+        550
+      ],
+      "type": "equipment_tag",
+      "confidence": 0.99
+    },
+    {
+      "text": "T",
+      "bbox": [
+        102,
+        598,
+        128,
+        613
+      ],
+      "type": "label",
+      "confidence": 0.45
+    },
+    {
+      "text": "V866",
+      "bbox": [
+        108,
+        618,
+        136,
+        633
+      ],
+      "type": "valve_tag",
+      "confidence": 0.974
+    },
+    {
+      "text": "V897A",
+      "bbox": [
+        136,
+        438,
+        180,
+        455
+      ],
+      "type": "valve_tag",
+      "confidence": 0.936
+    },
+    {
+      "text": "412",
+      "bbox": [
+        135,
+        446,
+        244,
+        475
+      ],
+      "type": "label",
+      "confidence": 0.523
+    },
+    {
+      "text": "3/8\u00b0T",
+      "bbox": [
+        145,
+        622,
+        160,
+        663
+      ],
+      "type": "label",
+      "confidence": 0.889
+    },
+    {
+      "text": "SAMPLE CASK",
+      "bbox": [
+        154,
+        382,
+        235,
+        404
+      ],
+      "type": "label",
+      "confidence": 0.995
+    },
+    {
+      "text": "TK-228A",
+      "bbox": [
+        169,
+        370,
+        222,
+        389
+      ],
+      "type": "equipment_tag",
+      "confidence": 0.983
+    },
+    {
+      "text": "iV898A",
+      "bbox": [
+        196,
+        436,
+        242,
+        452
+      ],
+      "type": "label",
+      "confidence": 0.812
+    },
+    {
+      "text": "3/8T",
+      "bbox": [
+        220,
+        618,
+        238,
+        661
+      ],
+      "type": "label",
+      "confidence": 0.993
+    },
+    {
+      "text": "MM-687",
+      "bbox": [
+        246,
+        524,
+        293,
+        542
+      ],
+      "type": "equipment_tag",
+      "confidence": 0.987
+    },
+    {
+      "text": "V867",
+      "bbox": [
+        245,
+        600,
+        279,
+        619
+      ],
+      "type": "valve_tag",
+      "confidence": 0.98
+    },
+    {
+      "text": "3/81",
+      "bbox": [
+        284,
+        447,
+        297,
+        481
+      ],
+      "type": "label",
+      "confidence": 0.88
+    },
+    {
+      "text": "TK-197",
+      "bbox": [
+        397,
+        519,
+        439,
+        535
+      ],
+      "type": "instrument_tag",
+      "confidence": 0.984
+    },
+    {
+      "text": "TANK",
+      "bbox": [
+        399,
+        532,
+        437,
+        548
+      ],
+      "type": "label",
+      "confidence": 0.999
+    },
+    {
+      "text": "FLUSH",
+      "bbox": [
+        397,
+        544,
+        439,
+        562
+      ],
+      "type": "label",
+      "confidence": 1.0
+    },
+    {
+      "text": "1/2",
+      "bbox": [
+        420,
+        622,
+        435,
+        648
+      ],
+      "type": "label",
+      "confidence": 0.998
+    },
+    {
+      "text": "",
+      "bbox": [
+        432,
+        471,
+        460,
+        491
+      ],
+      "type": "label",
+      "confidence": 0.0
+    },
+    {
+      "text": "$\\x$",
+      "bbox": [
+        432,
+        582,
+        498,
+        623
+      ],
+      "type": "label",
+      "confidence": 0.389
+    },
+    {
+      "text": "S",
+      "bbox": [
+        459,
+        452,
+        493,
+        486
+      ],
+      "type": "label",
+      "confidence": 0.248
+    },
+    {
+      "text": "LR NOTE 3",
+      "bbox": [
+        477,
+        624,
+        564,
+        645
+      ],
+      "type": "label",
+      "confidence": 0.95
+    },
+    {
+      "text": "83",
+      "bbox": [
+        486,
+        526,
+        523,
+        565
+      ],
+      "type": "label",
+      "confidence": 0.45
+    },
+    {
+      "text": "PASS PANEL",
+      "bbox": [
+        502,
+        343,
+        575,
+        366
+      ],
+      "type": "label",
+      "confidence": 0.962
+    },
+    {
+      "text": "CUBICLE",
+      "bbox": [
+        510,
+        330,
+        566,
+        352
+      ],
+      "type": "label",
+      "confidence": 0.984
+    },
+    {
+      "text": "V303",
+      "bbox": [
+        511,
+        438,
+        542,
+        454
+      ],
+      "type": "valve_tag",
+      "confidence": 0.983
+    },
+    {
+      "text": "Y868",
+      "bbox": [
+        530,
+        642,
+        562,
+        662
+      ],
+      "type": "label",
+      "confidence": 0.873
+    },
+    {
+      "text": "X",
+      "bbox": [
+        530,
+        655,
+        561,
+        679
+      ],
+      "type": "label",
+      "confidence": 0.902
+    },
+    {
+      "text": "3/8'",
+      "bbox": [
+        569,
+        429,
+        598,
+        445
+      ],
+      "type": "label",
+      "confidence": 0.814
+    },
+    {
+      "text": "V266",
+      "bbox": [
+        621,
+        434,
+        648,
+        449
+      ],
+      "type": "valve_tag",
+      "confidence": 0.836
+    },
+    {
+      "text": "V26",
+      "bbox": [
+        659,
+        374,
+        682,
+        388
+      ],
+      "type": "valve_tag",
+      "confidence": 0.801
+    },
+    {
+      "text": "T.C. DR. 264",
+      "bbox": [
+        679,
+        351,
+        762,
+        370
+      ],
+      "type": "label",
+      "confidence": 0.886
+    },
+    {
+      "text": "N",
+      "bbox": [
+        693,
+        426,
+        717,
+        443
+      ],
+      "type": "label",
+      "confidence": 0.125
+    },
+    {
+      "text": "2",
+      "bbox": [
+        689,
+        454,
+        719,
+        491
+      ],
+      "type": "label",
+      "confidence": 0.53
+    },
+    {
+      "text": "PIO-1-SS-820528",
+      "bbox": [
+        707,
+        18,
+        806,
+        44
+      ],
+      "type": "label",
+      "confidence": 0.877
+    },
+    {
+      "text": "REF. DRAWING NO.",
+      "bbox": [
+        719,
+        0,
+        819,
+        20
+      ],
+      "type": "label",
+      "confidence": 0.96
+    },
+    {
+      "text": "F.C.",
+      "bbox": [
+        737,
+        400,
+        760,
+        414
+      ],
+      "type": "label",
+      "confidence": 0.908
+    },
+    {
+      "text": "S",
+      "bbox": [
+        735,
+        441,
+        755,
+        463
+      ],
+      "type": "label",
+      "confidence": 0.274
+    },
+    {
+      "text": "INSIDE CONT.",
+      "bbox": [
+        815,
+        535,
+        890,
+        557
+      ],
+      "type": "label",
+      "confidence": 0.986
+    },
+    {
+      "text": "LLR NOTE",
+      "bbox": [
+        822,
+        353,
+        895,
+        376
+      ],
+      "type": "label",
+      "confidence": 0.966
+    },
+    {
+      "text": "A",
+      "bbox": [
+        822,
+        424,
+        849,
+        442
+      ],
+      "type": "label",
+      "confidence": 0.104
+    },
+    {
+      "text": "V272",
+      "bbox": [
+        831,
+        460,
+        861,
+        479
+      ],
+      "type": "valve_tag",
+      "confidence": 0.854
+    },
+    {
+      "text": "6",
+      "bbox": [
+        834,
+        476,
+        857,
+        494
+      ],
+      "type": "label",
+      "confidence": 0.143
+    },
+    {
+      "text": "TR.14",
+      "bbox": [
+        834,
+        496,
+        868,
+        512
+      ],
+      "type": "label",
+      "confidence": 0.966
+    },
+    {
+      "text": "T.C.",
+      "bbox": [
+        836,
+        508,
+        865,
+        525
+      ],
+      "type": "label",
+      "confidence": 0.758
+    },
+    {
+      "text": "B",
+      "bbox": [
+        845,
+        5,
+        872,
+        25
+      ],
+      "type": "label",
+      "confidence": 0.218
+    },
+    {
+      "text": "T",
+      "bbox": [
+        842,
+        29,
+        860,
+        47
+      ],
+      "type": "label",
+      "confidence": 0.187
+    },
+    {
+      "text": "3/8",
+      "bbox": [
+        852,
+        430,
+        864,
+        458
+      ],
+      "type": "label",
+      "confidence": 0.996
+    },
+    {
+      "text": "-2",
+      "bbox": [
+        852,
+        479,
+        879,
+        497
+      ],
+      "type": "label",
+      "confidence": 0.697
+    },
+    {
+      "text": "SAMPLE SYS. NUCLEAR POST ACCIDENT DETAIL",
+      "bbox": [
+        870,
+        31,
+        1120,
+        66
+      ],
+      "type": "label",
+      "confidence": 0.865
+    },
+    {
+      "text": "V273",
+      "bbox": [
+        882,
+        400,
+        911,
+        417
+      ],
+      "type": "valve_tag",
+      "confidence": 0.933
+    },
+    {
+      "text": "V274",
+      "bbox": [
+        903,
+        369,
+        935,
+        385
+      ],
+      "type": "valve_tag",
+      "confidence": 0.983
+    },
+    {
+      "text": "LT.C. DR.141",
+      "bbox": [
+        923,
+        348,
+        997,
+        369
+      ],
+      "type": "label",
+      "confidence": 0.828
+    },
+    {
+      "text": "1/2",
+      "bbox": [
+        921,
+        392,
+        935,
+        417
+      ],
+      "type": "label",
+      "confidence": 0.995
+    },
+    {
+      "text": "",
+      "bbox": [
+        941,
+        545,
+        967,
+        562
+      ],
+      "type": "label",
+      "confidence": 0.0
+    },
+    {
+      "text": "1/2\u00d7 3/4",
+      "bbox": [
+        936,
+        617,
+        1000,
+        639
+      ],
+      "type": "label",
+      "confidence": 0.893
+    },
+    {
+      "text": "T-312",
+      "bbox": [
+        948,
+        569,
+        985,
+        586
+      ],
+      "type": "equipment_tag",
+      "confidence": 0.995
+    },
+    {
+      "text": "DRAINER",
+      "bbox": [
+        944,
+        583,
+        990,
+        598
+      ],
+      "type": "label",
+      "confidence": 0.876
+    },
+    {
+      "text": "LIOUIO",
+      "bbox": [
+        944,
+        593,
+        987,
+        613
+      ],
+      "type": "label",
+      "confidence": 0.937
+    },
+    {
+      "text": "CUBICLE",
+      "bbox": [
+        964,
+        724,
+        1018,
+        745
+      ],
+      "type": "label",
+      "confidence": 0.999
+    },
+    {
+      "text": "PASS PANEL",
+      "bbox": [
+        959,
+        737,
+        1022,
+        758
+      ],
+      "type": "label",
+      "confidence": 0.951
+    },
+    {
+      "text": "2",
+      "bbox": [
+        969,
+        657,
+        995,
+        675
+      ],
+      "type": "label",
+      "confidence": 0.216
+    },
+    {
+      "text": "3/8",
+      "bbox": [
+        986,
+        859,
+        1011,
+        872
+      ],
+      "type": "label",
+      "confidence": 0.947
+    },
+    {
+      "text": "TITLE",
+      "bbox": [
+        996,
+        19,
+        1031,
+        40
+      ],
+      "type": "label",
+      "confidence": 0.999
+    },
+    {
+      "text": "2",
+      "bbox": [
+        1010,
+        421,
+        1037,
+        440
+      ],
+      "type": "label",
+      "confidence": 0.239
+    },
+    {
+      "text": "PAB",
+      "bbox": [
+        1027,
+        658,
+        1052,
+        673
+      ],
+      "type": "label",
+      "confidence": 0.91
+    },
+    {
+      "text": "WASTE",
+      "bbox": [
+        1040,
+        441,
+        1074,
+        454
+      ],
+      "type": "label",
+      "confidence": 0.999
+    },
+    {
+      "text": "LIOUTO DRAINS",
+      "bbox": [
+        1037,
+        547,
+        1116,
+        561
+      ],
+      "type": "label",
+      "confidence": 0.893
+    },
+    {
+      "text": "WASTE PROCESS",
+      "bbox": [
+        1034,
+        557,
+        1118,
+        572
+      ],
+      "type": "label",
+      "confidence": 0.987
+    },
+    {
+      "text": "LIOUIO",
+      "bbox": [
+        1044,
+        431,
+        1078,
+        443
+      ],
+      "type": "label",
+      "confidence": 0.899
+    },
+    {
+      "text": "WLO DR 264",
+      "bbox": [
+        1042,
+        515,
+        1113,
+        533
+      ],
+      "type": "label",
+      "confidence": 0.966
+    },
+    {
+      "text": "PRIMARY AIR",
+      "bbox": [
+        1042,
+        675,
+        1110,
+        691
+      ],
+      "type": "label",
+      "confidence": 0.952
+    },
+    {
+      "text": "WLO DR 141",
+      "bbox": [
+        1048,
+        397,
+        1110,
+        413
+      ],
+      "type": "label",
+      "confidence": 0.946
+    },
+    {
+      "text": "CNT.REC.",
+      "bbox": [
+        1043,
+        863,
+        1096,
+        876
+      ],
+      "type": "label",
+      "confidence": 0.922
+    },
+    {
+      "text": "20222",
+      "bbox": [
+        1054,
+        533,
+        1091,
+        547
+      ],
+      "type": "label",
+      "confidence": 0.949
+    },
+    {
+      "text": "20495",
+      "bbox": [
+        1056,
+        643,
+        1091,
+        657
+      ],
+      "type": "label",
+      "confidence": 0.964
+    },
+    {
+      "text": "VENT SYSTE",
+      "bbox": [
+        1052,
+        657,
+        1118,
+        670
+      ],
+      "type": "label",
+      "confidence": 0.827
+    },
+    {
+      "text": "HANOLING",
+      "bbox": [
+        1051,
+        667,
+        1101,
+        680
+      ],
+      "type": "label",
+      "confidence": 0.991
+    },
+    {
+      "text": "20219",
+      "bbox": [
+        1059,
+        414,
+        1093,
+        428
+      ],
+      "type": "label",
+      "confidence": 0.999
+    },
+    {
+      "text": "PROC",
+      "bbox": [
+        1077,
+        444,
+        1097,
+        451
+      ],
+      "type": "label",
+      "confidence": 0.981
+    },
+    {
+      "text": "(0-8)",
+      "bbox": [
+        1087,
+        627,
+        1115,
+        640
+      ],
+      "type": "label",
+      "confidence": 0.952
+    }
+  ]
+}

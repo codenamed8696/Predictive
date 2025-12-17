@@ -1,0 +1,7038 @@
+{
+  "source_image": "../../../Sample_page_1.png",
+  "image_size": {
+    "width": 3394,
+    "height": 3031
+  },
+  "ocr_engine": "PADDLEOCR",
+  "coordinate_system": "global_0_1000",
+  "total_detections": 194,
+  "tiles_processed": [
+    {
+      "tile_id": "tile_00_00",
+      "ocr_file": "ocr_output\\ocr_tile_00_00.json",
+      "detections": 54
+    },
+    {
+      "tile_id": "tile_00_01",
+      "ocr_file": "ocr_output\\ocr_tile_00_01.json",
+      "detections": 26
+    },
+    {
+      "tile_id": "tile_01_00",
+      "ocr_file": "ocr_output\\ocr_tile_01_00.json",
+      "detections": 30
+    },
+    {
+      "tile_id": "tile_01_01",
+      "ocr_file": "ocr_output\\ocr_tile_01_01.json",
+      "detections": 84
+    }
+  ],
+  "summary": {
+    "equipment_tags": 7,
+    "instrument_tags": 3,
+    "valve_tags": 16,
+    "line_numbers": 0,
+    "measurements": 0,
+    "labels": 168
+  },
+  "detections": {
+    "equipment_tags": [
+      {
+        "text": "MM-585",
+        "bbox": [
+          737,
+          528,
+          744,
+          549
+        ],
+        "bbox_global": [
+          737,
+          528,
+          744,
+          549
+        ],
+        "type": "equipment_tag",
+        "confidence": 0.997,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "T-312",
+        "bbox": [
+          971,
+          763,
+          992,
+          772
+        ],
+        "bbox_global": [
+          971,
+          763,
+          992,
+          772
+        ],
+        "type": "equipment_tag",
+        "confidence": 0.995,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "E-186",
+        "bbox": [
+          304,
+          612,
+          313,
+          630
+        ],
+        "bbox_global": [
+          304,
+          612,
+          313,
+          630
+        ],
+        "type": "equipment_tag",
+        "confidence": 0.992,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "MM-585",
+        "bbox": [
+          502,
+          740,
+          528,
+          753
+        ],
+        "bbox_global": [
+          502,
+          740,
+          528,
+          753
+        ],
+        "type": "equipment_tag",
+        "confidence": 0.99,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "CP-419",
+        "bbox": [
+          925,
+          337,
+          938,
+          376
+        ],
+        "bbox_global": [
+          925,
+          337,
+          938,
+          376
+        ],
+        "type": "equipment_tag",
+        "confidence": 0.987,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "MM-687",
+        "bbox": [
+          585,
+          738,
+          611,
+          748
+        ],
+        "bbox_global": [
+          585,
+          738,
+          611,
+          748
+        ],
+        "type": "equipment_tag",
+        "confidence": 0.987,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "TK-228A",
+        "bbox": [
+          543,
+          653,
+          572,
+          664
+        ],
+        "bbox_global": [
+          543,
+          653,
+          572,
+          664
+        ],
+        "type": "equipment_tag",
+        "confidence": 0.983,
+        "source_tile": "tile_01_01"
+      }
+    ],
+    "instrument_tags": [
+      {
+        "text": "TK-2288",
+        "bbox": [
+          455,
+          658,
+          485,
+          668
+        ],
+        "bbox_global": [
+          455,
+          658,
+          485,
+          668
+        ],
+        "type": "instrument_tag",
+        "confidence": 0.989,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "TK-197",
+        "bbox": [
+          669,
+          736,
+          691,
+          744
+        ],
+        "bbox_global": [
+          669,
+          736,
+          691,
+          744
+        ],
+        "type": "instrument_tag",
+        "confidence": 0.984,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "TK-2288",
+        "bbox": [
+          815,
+          490,
+          823,
+          515
+        ],
+        "bbox_global": [
+          815,
+          490,
+          823,
+          515
+        ],
+        "type": "instrument_tag",
+        "confidence": 0.976,
+        "source_tile": "tile_01_00"
+      }
+    ],
+    "valve_tags": [
+      {
+        "text": "V303",
+        "bbox": [
+          731,
+          691,
+          748,
+          700
+        ],
+        "bbox_global": [
+          731,
+          691,
+          748,
+          700
+        ],
+        "type": "valve_tag",
+        "confidence": 0.983,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "V274",
+        "bbox": [
+          947,
+          653,
+          964,
+          662
+        ],
+        "bbox_global": [
+          947,
+          653,
+          964,
+          662
+        ],
+        "type": "valve_tag",
+        "confidence": 0.983,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "V867",
+        "bbox": [
+          585,
+          780,
+          603,
+          790
+        ],
+        "bbox_global": [
+          585,
+          780,
+          603,
+          790
+        ],
+        "type": "valve_tag",
+        "confidence": 0.98,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "V337",
+        "bbox": [
+          803,
+          326,
+          811,
+          342
+        ],
+        "bbox_global": [
+          803,
+          326,
+          811,
+          342
+        ],
+        "type": "valve_tag",
+        "confidence": 0.977,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "V866",
+        "bbox": [
+          509,
+          790,
+          525,
+          798
+        ],
+        "bbox_global": [
+          509,
+          790,
+          525,
+          798
+        ],
+        "type": "valve_tag",
+        "confidence": 0.974,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "V866",
+        "bbox": [
+          691,
+          531,
+          700,
+          547
+        ],
+        "bbox_global": [
+          691,
+          531,
+          700,
+          547
+        ],
+        "type": "valve_tag",
+        "confidence": 0.951,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "V232",
+        "bbox": [
+          531,
+          348,
+          541,
+          365
+        ],
+        "bbox_global": [
+          531,
+          348,
+          541,
+          365
+        ],
+        "type": "valve_tag",
+        "confidence": 0.949,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "V897A",
+        "bbox": [
+          525,
+          691,
+          549,
+          700
+        ],
+        "bbox_global": [
+          525,
+          691,
+          549,
+          700
+        ],
+        "type": "valve_tag",
+        "confidence": 0.936,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "V273",
+        "bbox": [
+          935,
+          670,
+          951,
+          679
+        ],
+        "bbox_global": [
+          935,
+          670,
+          951,
+          679
+        ],
+        "type": "valve_tag",
+        "confidence": 0.933,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "v208",
+        "bbox": [
+          635,
+          322,
+          644,
+          338
+        ],
+        "bbox_global": [
+          635,
+          322,
+          644,
+          338
+        ],
+        "type": "valve_tag",
+        "confidence": 0.881,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "V272",
+        "bbox": [
+          907,
+          703,
+          924,
+          713
+        ],
+        "bbox_global": [
+          907,
+          703,
+          924,
+          713
+        ],
+        "type": "valve_tag",
+        "confidence": 0.854,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "v8988",
+        "bbox": [
+          782,
+          503,
+          791,
+          526
+        ],
+        "bbox_global": [
+          782,
+          503,
+          791,
+          526
+        ],
+        "type": "valve_tag",
+        "confidence": 0.853,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "V8978",
+        "bbox": [
+          782,
+          474,
+          790,
+          495
+        ],
+        "bbox_global": [
+          782,
+          474,
+          790,
+          495
+        ],
+        "type": "valve_tag",
+        "confidence": 0.849,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "V265",
+        "bbox": [
+          677,
+          467,
+          685,
+          483
+        ],
+        "bbox_global": [
+          677,
+          467,
+          685,
+          483
+        ],
+        "type": "valve_tag",
+        "confidence": 0.843,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "V266",
+        "bbox": [
+          791,
+          689,
+          806,
+          697
+        ],
+        "bbox_global": [
+          791,
+          689,
+          806,
+          697
+        ],
+        "type": "valve_tag",
+        "confidence": 0.836,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "V26",
+        "bbox": [
+          812,
+          656,
+          825,
+          663
+        ],
+        "bbox_global": [
+          812,
+          656,
+          825,
+          663
+        ],
+        "type": "valve_tag",
+        "confidence": 0.801,
+        "source_tile": "tile_01_01"
+      }
+    ],
+    "line_numbers": [],
+    "measurements": [],
+    "labels": [
+      {
+        "text": "PANEL",
+        "bbox": [
+          846,
+          278,
+          859,
+          306
+        ],
+        "bbox_global": [
+          846,
+          278,
+          859,
+          306
+        ],
+        "type": "label",
+        "confidence": 1.0,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "FRONT",
+        "bbox": [
+          856,
+          278,
+          867,
+          306
+        ],
+        "bbox_global": [
+          856,
+          278,
+          867,
+          306
+        ],
+        "type": "label",
+        "confidence": 1.0,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "FLUSH",
+        "bbox": [
+          669,
+          749,
+          691,
+          759
+        ],
+        "bbox_global": [
+          669,
+          749,
+          691,
+          759
+        ],
+        "type": "label",
+        "confidence": 1.0,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "PER CHEMISTRY",
+        "bbox": [
+          316,
+          475,
+          322,
+          517
+        ],
+        "bbox_global": [
+          316,
+          475,
+          322,
+          517
+        ],
+        "type": "label",
+        "confidence": 0.999,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "PASS",
+        "bbox": [
+          590,
+          286,
+          599,
+          302
+        ],
+        "bbox_global": [
+          590,
+          286,
+          599,
+          302
+        ],
+        "type": "label",
+        "confidence": 0.999,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "POST ACCIDENT",
+        "bbox": [
+          905,
+          314,
+          918,
+          400
+        ],
+        "bbox_global": [
+          905,
+          314,
+          918,
+          400
+        ],
+        "type": "label",
+        "confidence": 0.999,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "TANK",
+        "bbox": [
+          669,
+          743,
+          690,
+          751
+        ],
+        "bbox_global": [
+          669,
+          743,
+          690,
+          751
+        ],
+        "type": "label",
+        "confidence": 0.999,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "CUBICLE",
+        "bbox": [
+          980,
+          848,
+          1009,
+          860
+        ],
+        "bbox_global": [
+          980,
+          848,
+          1009,
+          860
+        ],
+        "type": "label",
+        "confidence": 0.999,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "TITLE",
+        "bbox": [
+          998,
+          460,
+          1017,
+          472
+        ],
+        "bbox_global": [
+          998,
+          460,
+          1017,
+          472
+        ],
+        "type": "label",
+        "confidence": 0.999,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "WASTE",
+        "bbox": [
+          1022,
+          692,
+          1040,
+          700
+        ],
+        "bbox_global": [
+          1022,
+          692,
+          1040,
+          700
+        ],
+        "type": "label",
+        "confidence": 0.999,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "20219",
+        "bbox": [
+          1032,
+          678,
+          1051,
+          685
+        ],
+        "bbox_global": [
+          1032,
+          678,
+          1051,
+          685
+        ],
+        "type": "label",
+        "confidence": 0.999,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "SAMPLE",
+        "bbox": [
+          106,
+          450,
+          112,
+          471
+        ],
+        "bbox_global": [
+          106,
+          450,
+          112,
+          471
+        ],
+        "type": "label",
+        "confidence": 0.998,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "SAMPLE",
+        "bbox": [
+          291,
+          608,
+          300,
+          631
+        ],
+        "bbox_global": [
+          291,
+          608,
+          300,
+          631
+        ],
+        "type": "label",
+        "confidence": 0.998,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "SAMPLE CASK",
+        "bbox": [
+          808,
+          483,
+          816,
+          521
+        ],
+        "bbox_global": [
+          808,
+          483,
+          816,
+          521
+        ],
+        "type": "label",
+        "confidence": 0.998,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "SAMPLE CASK",
+        "bbox": [
+          450,
+          664,
+          493,
+          677
+        ],
+        "bbox_global": [
+          450,
+          664,
+          493,
+          677
+        ],
+        "type": "label",
+        "confidence": 0.998,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "1/2",
+        "bbox": [
+          681,
+          792,
+          689,
+          807
+        ],
+        "bbox_global": [
+          681,
+          792,
+          689,
+          807
+        ],
+        "type": "label",
+        "confidence": 0.998,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "SET PRESSURE",
+        "bbox": [
+          322,
+          478,
+          329,
+          517
+        ],
+        "bbox_global": [
+          322,
+          478,
+          329,
+          517
+        ],
+        "type": "label",
+        "confidence": 0.996,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "REACTOR COOLANT",
+        "bbox": [
+          430,
+          15,
+          438,
+          63
+        ],
+        "bbox_global": [
+          430,
+          15,
+          438,
+          63
+        ],
+        "type": "label",
+        "confidence": 0.996,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "3/8",
+        "bbox": [
+          918,
+          687,
+          925,
+          702
+        ],
+        "bbox_global": [
+          918,
+          687,
+          925,
+          702
+        ],
+        "type": "label",
+        "confidence": 0.996,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "(8-3)",
+        "bbox": [
+          411,
+          28,
+          418,
+          42
+        ],
+        "bbox_global": [
+          411,
+          28,
+          418,
+          42
+        ],
+        "type": "label",
+        "confidence": 0.995,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "POST",
+        "bbox": [
+          278,
+          611,
+          287,
+          627
+        ],
+        "bbox_global": [
+          278,
+          611,
+          287,
+          627
+        ],
+        "type": "label",
+        "confidence": 0.995,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "PORT",
+        "bbox": [
+          603,
+          286,
+          611,
+          302
+        ],
+        "bbox_global": [
+          603,
+          286,
+          611,
+          302
+        ],
+        "type": "label",
+        "confidence": 0.995,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "SAMPLE CASK",
+        "bbox": [
+          535,
+          660,
+          580,
+          672
+        ],
+        "bbox_global": [
+          535,
+          660,
+          580,
+          672
+        ],
+        "type": "label",
+        "confidence": 0.995,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "1/2",
+        "bbox": [
+          956,
+          665,
+          964,
+          679
+        ],
+        "bbox_global": [
+          956,
+          665,
+          964,
+          679
+        ],
+        "type": "label",
+        "confidence": 0.995,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "CC LOOP",
+        "bbox": [
+          220,
+          2,
+          228,
+          30
+        ],
+        "bbox_global": [
+          220,
+          2,
+          228,
+          30
+        ],
+        "type": "label",
+        "confidence": 0.994,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "ACCIDENT",
+        "bbox": [
+          285,
+          605,
+          293,
+          633
+        ],
+        "bbox_global": [
+          285,
+          605,
+          293,
+          633
+        ],
+        "type": "label",
+        "confidence": 0.993,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "3/8T",
+        "bbox": [
+          571,
+          790,
+          581,
+          814
+        ],
+        "bbox_global": [
+          571,
+          790,
+          581,
+          814
+        ],
+        "type": "label",
+        "confidence": 0.993,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "(E-8)",
+        "bbox": [
+          131,
+          458,
+          139,
+          475
+        ],
+        "bbox_global": [
+          131,
+          458,
+          139,
+          475
+        ],
+        "type": "label",
+        "confidence": 0.991,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "HANOLING",
+        "bbox": [
+          1028,
+          817,
+          1055,
+          824
+        ],
+        "bbox_global": [
+          1028,
+          817,
+          1055,
+          824
+        ],
+        "type": "label",
+        "confidence": 0.991,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "SAMPLE PANEL",
+        "bbox": [
+          917,
+          317,
+          928,
+          397
+        ],
+        "bbox_global": [
+          917,
+          317,
+          928,
+          397
+        ],
+        "type": "label",
+        "confidence": 0.99,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "CC LOOP A",
+        "bbox": [
+          337,
+          652,
+          347,
+          685
+        ],
+        "bbox_global": [
+          337,
+          652,
+          347,
+          685
+        ],
+        "type": "label",
+        "confidence": 0.989,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "OR COOLANT",
+        "bbox": [
+          110,
+          450,
+          117,
+          487
+        ],
+        "bbox_global": [
+          110,
+          450,
+          117,
+          487
+        ],
+        "type": "label",
+        "confidence": 0.988,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "WASTE PROCESS",
+        "bbox": [
+          1019,
+          756,
+          1064,
+          765
+        ],
+        "bbox_global": [
+          1019,
+          756,
+          1064,
+          765
+        ],
+        "type": "label",
+        "confidence": 0.987,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "INSIDE CONT.",
+        "bbox": [
+          898,
+          744,
+          939,
+          756
+        ],
+        "bbox_global": [
+          898,
+          744,
+          939,
+          756
+        ],
+        "type": "label",
+        "confidence": 0.986,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "PID- 1-SS-LR20520",
+        "bbox": [
+          529,
+          407,
+          547,
+          537
+        ],
+        "bbox_global": [
+          529,
+          407,
+          547,
+          537
+        ],
+        "type": "label",
+        "confidence": 0.985,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "ld",
+        "bbox": [
+          283,
+          476,
+          290,
+          484
+        ],
+        "bbox_global": [
+          283,
+          476,
+          290,
+          484
+        ],
+        "type": "label",
+        "confidence": 0.984,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "CUBICLE",
+        "bbox": [
+          730,
+          631,
+          761,
+          643
+        ],
+        "bbox_global": [
+          730,
+          631,
+          761,
+          643
+        ],
+        "type": "label",
+        "confidence": 0.984,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "(PACKAGE UNIT)",
+        "bbox": [
+          192,
+          462,
+          201,
+          505
+        ],
+        "bbox_global": [
+          192,
+          462,
+          201,
+          505
+        ],
+        "type": "label",
+        "confidence": 0.983,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "SURVEY",
+        "bbox": [
+          597,
+          284,
+          605,
+          305
+        ],
+        "bbox_global": [
+          597,
+          284,
+          605,
+          305
+        ],
+        "type": "label",
+        "confidence": 0.983,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "20205",
+        "bbox": [
+          345,
+          500,
+          354,
+          519
+        ],
+        "bbox_global": [
+          345,
+          500,
+          354,
+          519
+        ],
+        "type": "label",
+        "confidence": 0.982,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "20518",
+        "bbox": [
+          122,
+          450,
+          131,
+          472
+        ],
+        "bbox_global": [
+          122,
+          450,
+          131,
+          472
+        ],
+        "type": "label",
+        "confidence": 0.981,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "PROC",
+        "bbox": [
+          1042,
+          694,
+          1053,
+          698
+        ],
+        "bbox_global": [
+          1042,
+          694,
+          1053,
+          698
+        ],
+        "type": "label",
+        "confidence": 0.981,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "(A-5)",
+        "bbox": [
+          346,
+          692,
+          354,
+          708
+        ],
+        "bbox_global": [
+          346,
+          692,
+          354,
+          708
+        ],
+        "type": "label",
+        "confidence": 0.978,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "DM-3/8T",
+        "bbox": [
+          469,
+          487,
+          479,
+          514
+        ],
+        "bbox_global": [
+          469,
+          487,
+          479,
+          514
+        ],
+        "type": "label",
+        "confidence": 0.978,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "28205",
+        "bbox": [
+          346,
+          659,
+          355,
+          679
+        ],
+        "bbox_global": [
+          346,
+          659,
+          355,
+          679
+        ],
+        "type": "label",
+        "confidence": 0.975,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "LLR NOTE",
+        "bbox": [
+          902,
+          644,
+          942,
+          657
+        ],
+        "bbox_global": [
+          902,
+          644,
+          942,
+          657
+        ],
+        "type": "label",
+        "confidence": 0.966,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "TR.14",
+        "bbox": [
+          908,
+          723,
+          927,
+          732
+        ],
+        "bbox_global": [
+          908,
+          723,
+          927,
+          732
+        ],
+        "type": "label",
+        "confidence": 0.966,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "WLO DR 264",
+        "bbox": [
+          1023,
+          733,
+          1062,
+          743
+        ],
+        "bbox_global": [
+          1023,
+          733,
+          1062,
+          743
+        ],
+        "type": "label",
+        "confidence": 0.966,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "DEMIN. SYSTEM",
+        "bbox": [
+          468,
+          527,
+          478,
+          568
+        ],
+        "bbox_global": [
+          468,
+          527,
+          478,
+          568
+        ],
+        "type": "label",
+        "confidence": 0.965,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "SS",
+        "bbox": [
+          149,
+          176,
+          158,
+          185
+        ],
+        "bbox_global": [
+          149,
+          176,
+          158,
+          185
+        ],
+        "type": "label",
+        "confidence": 0.964,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "-LR NOTE",
+        "bbox": [
+          540,
+          375,
+          551,
+          412
+        ],
+        "bbox_global": [
+          540,
+          375,
+          551,
+          412
+        ],
+        "type": "label",
+        "confidence": 0.964,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "20495",
+        "bbox": [
+          1031,
+          803,
+          1050,
+          811
+        ],
+        "bbox_global": [
+          1031,
+          803,
+          1050,
+          811
+        ],
+        "type": "label",
+        "confidence": 0.964,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "CC LOOP A",
+        "bbox": [
+          337,
+          493,
+          347,
+          524
+        ],
+        "bbox_global": [
+          337,
+          493,
+          347,
+          524
+        ],
+        "type": "label",
+        "confidence": 0.962,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "PASS PANEL",
+        "bbox": [
+          726,
+          639,
+          766,
+          651
+        ],
+        "bbox_global": [
+          726,
+          639,
+          766,
+          651
+        ],
+        "type": "label",
+        "confidence": 0.962,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "REF. DRAWING NO.",
+        "bbox": [
+          845,
+          450,
+          901,
+          461
+        ],
+        "bbox_global": [
+          845,
+          450,
+          901,
+          461
+        ],
+        "type": "label",
+        "confidence": 0.96,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "SYSTEM HX.",
+        "bbox": [
+          297,
+          603,
+          306,
+          638
+        ],
+        "bbox_global": [
+          297,
+          603,
+          306,
+          638
+        ],
+        "type": "label",
+        "confidence": 0.954,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "9662",
+        "bbox": [
+          264,
+          69,
+          273,
+          85
+        ],
+        "bbox_global": [
+          264,
+          69,
+          273,
+          85
+        ],
+        "type": "label",
+        "confidence": 0.952,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "PRIMARY AIR",
+        "bbox": [
+          1023,
+          821,
+          1060,
+          830
+        ],
+        "bbox_global": [
+          1023,
+          821,
+          1060,
+          830
+        ],
+        "type": "label",
+        "confidence": 0.952,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "(0-8)",
+        "bbox": [
+          1047,
+          794,
+          1063,
+          802
+        ],
+        "bbox_global": [
+          1047,
+          794,
+          1063,
+          802
+        ],
+        "type": "label",
+        "confidence": 0.952,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "PASS PANEL",
+        "bbox": [
+          977,
+          855,
+          1012,
+          867
+        ],
+        "bbox_global": [
+          977,
+          855,
+          1012,
+          867
+        ],
+        "type": "label",
+        "confidence": 0.951,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "LR NOTE 3",
+        "bbox": [
+          712,
+          793,
+          760,
+          804
+        ],
+        "bbox_global": [
+          712,
+          793,
+          760,
+          804
+        ],
+        "type": "label",
+        "confidence": 0.95,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "20222",
+        "bbox": [
+          1030,
+          743,
+          1050,
+          751
+        ],
+        "bbox_global": [
+          1030,
+          743,
+          1050,
+          751
+        ],
+        "type": "label",
+        "confidence": 0.949,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "3/8",
+        "bbox": [
+          992,
+          922,
+          1006,
+          929
+        ],
+        "bbox_global": [
+          992,
+          922,
+          1006,
+          929
+        ],
+        "type": "label",
+        "confidence": 0.947,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "WLO DR 141",
+        "bbox": [
+          1026,
+          668,
+          1060,
+          677
+        ],
+        "bbox_global": [
+          1026,
+          668,
+          1060,
+          677
+        ],
+        "type": "label",
+        "confidence": 0.946,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "11",
+        "bbox": [
+          272,
+          71,
+          280,
+          81
+        ],
+        "bbox_global": [
+          272,
+          71,
+          280,
+          81
+        ],
+        "type": "label",
+        "confidence": 0.944,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "LIOUIO",
+        "bbox": [
+          969,
+          776,
+          993,
+          787
+        ],
+        "bbox_global": [
+          969,
+          776,
+          993,
+          787
+        ],
+        "type": "label",
+        "confidence": 0.937,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "-LR NOTE 2",
+        "bbox": [
+          230,
+          384,
+          241,
+          428
+        ],
+        "bbox_global": [
+          230,
+          384,
+          241,
+          428
+        ],
+        "type": "label",
+        "confidence": 0.932,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "1/4-",
+        "bbox": [
+          796,
+          327,
+          805,
+          341
+        ],
+        "bbox_global": [
+          796,
+          327,
+          805,
+          341
+        ],
+        "type": "label",
+        "confidence": 0.931,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "CNT.REC.",
+        "bbox": [
+          1024,
+          924,
+          1052,
+          932
+        ],
+        "bbox_global": [
+          1024,
+          924,
+          1052,
+          932
+        ],
+        "type": "label",
+        "confidence": 0.922,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "2322",
+        "bbox": [
+          483,
+          466,
+          491,
+          482
+        ],
+        "bbox_global": [
+          483,
+          466,
+          491,
+          482
+        ],
+        "type": "label",
+        "confidence": 0.915,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "PAB",
+        "bbox": [
+          1014,
+          812,
+          1029,
+          820
+        ],
+        "bbox_global": [
+          1014,
+          812,
+          1029,
+          820
+        ],
+        "type": "label",
+        "confidence": 0.91,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "F.C.",
+        "bbox": [
+          855,
+          670,
+          868,
+          678
+        ],
+        "bbox_global": [
+          855,
+          670,
+          868,
+          678
+        ],
+        "type": "label",
+        "confidence": 0.908,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "X",
+        "bbox": [
+          741,
+          810,
+          759,
+          823
+        ],
+        "bbox_global": [
+          741,
+          810,
+          759,
+          823
+        ],
+        "type": "label",
+        "confidence": 0.902,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "3/8*1",
+        "bbox": [
+          560,
+          457,
+          570,
+          476
+        ],
+        "bbox_global": [
+          560,
+          457,
+          570,
+          476
+        ],
+        "type": "label",
+        "confidence": 0.901,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "3/81",
+        "bbox": [
+          684,
+          454,
+          694,
+          473
+        ],
+        "bbox_global": [
+          684,
+          454,
+          694,
+          473
+        ],
+        "type": "label",
+        "confidence": 0.9,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "LIOUIO",
+        "bbox": [
+          1024,
+          687,
+          1042,
+          694
+        ],
+        "bbox_global": [
+          1024,
+          687,
+          1042,
+          694
+        ],
+        "type": "label",
+        "confidence": 0.899,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "20350",
+        "bbox": [
+          477,
+          541,
+          484,
+          560
+        ],
+        "bbox_global": [
+          477,
+          541,
+          484,
+          560
+        ],
+        "type": "label",
+        "confidence": 0.898,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "1/2\u00d7 3/4",
+        "bbox": [
+          965,
+          789,
+          1000,
+          801
+        ],
+        "bbox_global": [
+          965,
+          789,
+          1000,
+          801
+        ],
+        "type": "label",
+        "confidence": 0.893,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "LIOUTO DRAINS",
+        "bbox": [
+          1020,
+          751,
+          1064,
+          758
+        ],
+        "bbox_global": [
+          1020,
+          751,
+          1064,
+          758
+        ],
+        "type": "label",
+        "confidence": 0.893,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "3/8\u00b0T",
+        "bbox": [
+          530,
+          792,
+          538,
+          814
+        ],
+        "bbox_global": [
+          530,
+          792,
+          538,
+          814
+        ],
+        "type": "label",
+        "confidence": 0.889,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "ld",
+        "bbox": [
+          281,
+          513,
+          290,
+          522
+        ],
+        "bbox_global": [
+          281,
+          513,
+          290,
+          522
+        ],
+        "type": "label",
+        "confidence": 0.887,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "IA-5)",
+        "bbox": [
+          347,
+          468,
+          355,
+          482
+        ],
+        "bbox_global": [
+          347,
+          468,
+          355,
+          482
+        ],
+        "type": "label",
+        "confidence": 0.886,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "T.C. DR. 264",
+        "bbox": [
+          823,
+          643,
+          869,
+          653
+        ],
+        "bbox_global": [
+          823,
+          643,
+          869,
+          653
+        ],
+        "type": "label",
+        "confidence": 0.886,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "3/8*T",
+        "bbox": [
+          825,
+          425,
+          832,
+          444
+        ],
+        "bbox_global": [
+          825,
+          425,
+          832,
+          444
+        ],
+        "type": "label",
+        "confidence": 0.884,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "3/81",
+        "bbox": [
+          606,
+          696,
+          613,
+          714
+        ],
+        "bbox_global": [
+          606,
+          696,
+          613,
+          714
+        ],
+        "type": "label",
+        "confidence": 0.88,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "PIO-1-SS-820528",
+        "bbox": [
+          838,
+          460,
+          893,
+          474
+        ],
+        "bbox_global": [
+          838,
+          460,
+          893,
+          474
+        ],
+        "type": "label",
+        "confidence": 0.877,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "OPS1& 3",
+        "bbox": [
+          116,
+          450,
+          123,
+          483
+        ],
+        "bbox_global": [
+          116,
+          450,
+          123,
+          483
+        ],
+        "type": "label",
+        "confidence": 0.876,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "DRAINER",
+        "bbox": [
+          969,
+          770,
+          995,
+          779
+        ],
+        "bbox_global": [
+          969,
+          770,
+          995,
+          779
+        ],
+        "type": "label",
+        "confidence": 0.876,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "Y868",
+        "bbox": [
+          741,
+          803,
+          759,
+          814
+        ],
+        "bbox_global": [
+          741,
+          803,
+          759,
+          814
+        ],
+        "type": "label",
+        "confidence": 0.873,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "1.0/1",
+        "bbox": [
+          233,
+          182,
+          240,
+          196
+        ],
+        "bbox_global": [
+          233,
+          182,
+          240,
+          196
+        ],
+        "type": "label",
+        "confidence": 0.866,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "cC-1",
+        "bbox": [
+          341,
+          556,
+          350,
+          572
+        ],
+        "bbox_global": [
+          341,
+          556,
+          350,
+          572
+        ],
+        "type": "label",
+        "confidence": 0.866,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "SAMPLE SYS. NUCLEAR POST ACCIDENT DETAIL",
+        "bbox": [
+          928,
+          467,
+          1065,
+          486
+        ],
+        "bbox_global": [
+          928,
+          467,
+          1065,
+          486
+        ],
+        "type": "label",
+        "confidence": 0.865,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "98988",
+        "bbox": [
+          476,
+          694,
+          498,
+          703
+        ],
+        "bbox_global": [
+          476,
+          694,
+          498,
+          703
+        ],
+        "type": "label",
+        "confidence": 0.861,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "3/8*T",
+        "bbox": [
+          770,
+          424,
+          777,
+          444
+        ],
+        "bbox_global": [
+          770,
+          424,
+          777,
+          444
+        ],
+        "type": "label",
+        "confidence": 0.858,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "10-7)",
+        "bbox": [
+          477,
+          572,
+          484,
+          587
+        ],
+        "bbox_global": [
+          477,
+          572,
+          484,
+          587
+        ],
+        "type": "label",
+        "confidence": 0.854,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "50202",
+        "bbox": [
+          212,
+          1,
+          221,
+          22
+        ],
+        "bbox_global": [
+          212,
+          1,
+          221,
+          22
+        ],
+        "type": "label",
+        "confidence": 0.85,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "cc-1",
+        "bbox": [
+          340,
+          614,
+          350,
+          631
+        ],
+        "bbox_global": [
+          340,
+          614,
+          350,
+          631
+        ],
+        "type": "label",
+        "confidence": 0.85,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "1/21",
+        "bbox": [
+          596,
+          322,
+          605,
+          338
+        ],
+        "bbox_global": [
+          596,
+          322,
+          605,
+          338
+        ],
+        "type": "label",
+        "confidence": 0.847,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "WO",
+        "bbox": [
+          142,
+          176,
+          149,
+          184
+        ],
+        "bbox_global": [
+          142,
+          176,
+          149,
+          184
+        ],
+        "type": "label",
+        "confidence": 0.838,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "LT.C. DR.141",
+        "bbox": [
+          958,
+          642,
+          998,
+          653
+        ],
+        "bbox_global": [
+          958,
+          642,
+          998,
+          653
+        ],
+        "type": "label",
+        "confidence": 0.828,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "VENT SYSTE",
+        "bbox": [
+          1028,
+          811,
+          1064,
+          819
+        ],
+        "bbox_global": [
+          1028,
+          811,
+          1064,
+          819
+        ],
+        "type": "label",
+        "confidence": 0.827,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "1/4-T",
+        "bbox": [
+          563,
+          364,
+          570,
+          380
+        ],
+        "bbox_global": [
+          563,
+          364,
+          570,
+          380
+        ],
+        "type": "label",
+        "confidence": 0.82,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "3/8'",
+        "bbox": [
+          763,
+          686,
+          779,
+          695
+        ],
+        "bbox_global": [
+          763,
+          686,
+          779,
+          695
+        ],
+        "type": "label",
+        "confidence": 0.814,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "iV898A",
+        "bbox": [
+          558,
+          690,
+          583,
+          698
+        ],
+        "bbox_global": [
+          558,
+          690,
+          583,
+          698
+        ],
+        "type": "label",
+        "confidence": 0.812,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "3/8\"T",
+        "bbox": [
+          325,
+          524,
+          333,
+          541
+        ],
+        "bbox_global": [
+          325,
+          524,
+          333,
+          541
+        ],
+        "type": "label",
+        "confidence": 0.811,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "2\u222082",
+        "bbox": [
+          274,
+          510,
+          283,
+          527
+        ],
+        "bbox_global": [
+          274,
+          510,
+          283,
+          527
+        ],
+        "type": "label",
+        "confidence": 0.8,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "SC2A",
+        "bbox": [
+          122,
+          209,
+          132,
+          225
+        ],
+        "bbox_global": [
+          122,
+          209,
+          132,
+          225
+        ],
+        "type": "label",
+        "confidence": 0.794,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "SS",
+        "bbox": [
+          381,
+          275,
+          389,
+          284
+        ],
+        "bbox_global": [
+          381,
+          275,
+          389,
+          284
+        ],
+        "type": "label",
+        "confidence": 0.787,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "T.C.",
+        "bbox": [
+          909,
+          729,
+          926,
+          738
+        ],
+        "bbox_global": [
+          909,
+          729,
+          926,
+          738
+        ],
+        "type": "label",
+        "confidence": 0.758,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "./1",
+        "bbox": [
+          282,
+          446,
+          290,
+          459
+        ],
+        "bbox_global": [
+          282,
+          446,
+          290,
+          459
+        ],
+        "type": "label",
+        "confidence": 0.746,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "V/4'T",
+        "bbox": [
+          557,
+          319,
+          563,
+          332
+        ],
+        "bbox_global": [
+          557,
+          319,
+          563,
+          332
+        ],
+        "type": "label",
+        "confidence": 0.746,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "1ZEA",
+        "bbox": [
+          81,
+          85,
+          90,
+          100
+        ],
+        "bbox_global": [
+          81,
+          85,
+          90,
+          100
+        ],
+        "type": "label",
+        "confidence": 0.745,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "ADd",
+        "bbox": [
+          299,
+          491,
+          307,
+          503
+        ],
+        "bbox_global": [
+          299,
+          491,
+          307,
+          503
+        ],
+        "type": "label",
+        "confidence": 0.745,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "222A",
+        "bbox": [
+          80,
+          51,
+          88,
+          68
+        ],
+        "bbox_global": [
+          80,
+          51,
+          88,
+          68
+        ],
+        "type": "label",
+        "confidence": 0.718,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "2\u222082",
+        "bbox": [
+          275,
+          472,
+          283,
+          488
+        ],
+        "bbox_global": [
+          275,
+          472,
+          283,
+          488
+        ],
+        "type": "label",
+        "confidence": 0.712,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "21908",
+        "bbox": [
+          418,
+          31,
+          425,
+          48
+        ],
+        "bbox_global": [
+          418,
+          31,
+          425,
+          48
+        ],
+        "type": "label",
+        "confidence": 0.7,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "C12A",
+        "bbox": [
+          219,
+          222,
+          229,
+          238
+        ],
+        "bbox_global": [
+          219,
+          222,
+          229,
+          238
+        ],
+        "type": "label",
+        "confidence": 0.699,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "-2",
+        "bbox": [
+          919,
+          713,
+          933,
+          723
+        ],
+        "bbox_global": [
+          919,
+          713,
+          933,
+          723
+        ],
+        "type": "label",
+        "confidence": 0.697,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": ".D/1",
+        "bbox": [
+          330,
+          184,
+          336,
+          196
+        ],
+        "bbox_global": [
+          330,
+          184,
+          336,
+          196
+        ],
+        "type": "label",
+        "confidence": 0.67,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "1.D/1-WO",
+        "bbox": [
+          94,
+          147,
+          104,
+          173
+        ],
+        "bbox_global": [
+          94,
+          147,
+          104,
+          173
+        ],
+        "type": "label",
+        "confidence": 0.662,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "192",
+        "bbox": [
+          133,
+          195,
+          143,
+          203
+        ],
+        "bbox_global": [
+          133,
+          195,
+          143,
+          203
+        ],
+        "type": "label",
+        "confidence": 0.661,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "2122",
+        "bbox": [
+          258,
+          223,
+          267,
+          237
+        ],
+        "bbox_global": [
+          258,
+          223,
+          267,
+          237
+        ],
+        "type": "label",
+        "confidence": 0.636,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "2286",
+        "bbox": [
+          292,
+          491,
+          300,
+          506
+        ],
+        "bbox_global": [
+          292,
+          491,
+          300,
+          506
+        ],
+        "type": "label",
+        "confidence": 0.634,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "\u00a3 81 SO007",
+        "bbox": [
+          425,
+          20,
+          433,
+          55
+        ],
+        "bbox_global": [
+          425,
+          20,
+          433,
+          55
+        ],
+        "type": "label",
+        "confidence": 0.628,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "PANAL",
+        "bbox": [
+          504,
+          263,
+          516,
+          290
+        ],
+        "bbox_global": [
+          504,
+          263,
+          516,
+          290
+        ],
+        "type": "label",
+        "confidence": 0.624,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "OCZA",
+        "bbox": [
+          378,
+          225,
+          385,
+          240
+        ],
+        "bbox_global": [
+          378,
+          225,
+          385,
+          240
+        ],
+        "type": "label",
+        "confidence": 0.614,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "SS",
+        "bbox": [
+          150,
+          194,
+          164,
+          204
+        ],
+        "bbox_global": [
+          150,
+          194,
+          164,
+          204
+        ],
+        "type": "label",
+        "confidence": 0.601,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "ZB2A",
+        "bbox": [
+          263,
+          433,
+          273,
+          449
+        ],
+        "bbox_global": [
+          263,
+          433,
+          273,
+          449
+        ],
+        "type": "label",
+        "confidence": 0.587,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "3",
+        "bbox": [
+          388,
+          205,
+          404,
+          218
+        ],
+        "bbox_global": [
+          388,
+          205,
+          404,
+          218
+        ],
+        "type": "label",
+        "confidence": 0.582,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "EENA",
+        "bbox": [
+          276,
+          444,
+          284,
+          458
+        ],
+        "bbox_global": [
+          276,
+          444,
+          284,
+          458
+        ],
+        "type": "label",
+        "confidence": 0.542,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "2",
+        "bbox": [
+          829,
+          700,
+          845,
+          720
+        ],
+        "bbox_global": [
+          829,
+          700,
+          845,
+          720
+        ],
+        "type": "label",
+        "confidence": 0.53,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "ERONNT",
+        "bbox": [
+          496,
+          263,
+          506,
+          289
+        ],
+        "bbox_global": [
+          496,
+          263,
+          506,
+          289
+        ],
+        "type": "label",
+        "confidence": 0.529,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "412",
+        "bbox": [
+          524,
+          695,
+          584,
+          711
+        ],
+        "bbox_global": [
+          524,
+          695,
+          584,
+          711
+        ],
+        "type": "label",
+        "confidence": 0.523,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "1E2A",
+        "bbox": [
+          191,
+          196,
+          199,
+          210
+        ],
+        "bbox_global": [
+          191,
+          196,
+          199,
+          210
+        ],
+        "type": "label",
+        "confidence": 0.515,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "(1-0",
+        "bbox": [
+          214,
+          43,
+          220,
+          56
+        ],
+        "bbox_global": [
+          214,
+          43,
+          220,
+          56
+        ],
+        "type": "label",
+        "confidence": 0.512,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "-/",
+        "bbox": [
+          298,
+          422,
+          307,
+          438
+        ],
+        "bbox_global": [
+          298,
+          422,
+          307,
+          438
+        ],
+        "type": "label",
+        "confidence": 0.512,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "4L1",
+        "bbox": [
+          773,
+          506,
+          782,
+          524
+        ],
+        "bbox_global": [
+          773,
+          506,
+          782,
+          524
+        ],
+        "type": "label",
+        "confidence": 0.51,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "114/1",
+        "bbox": [
+          294,
+          263,
+          302,
+          279
+        ],
+        "bbox_global": [
+          294,
+          263,
+          302,
+          279
+        ],
+        "type": "label",
+        "confidence": 0.502,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "O8/8-WO",
+        "bbox": [
+          92,
+          16,
+          102,
+          45
+        ],
+        "bbox_global": [
+          92,
+          16,
+          102,
+          45
+        ],
+        "type": "label",
+        "confidence": 0.501,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "AROOO",
+        "bbox": [
+          154,
+          482,
+          164,
+          503
+        ],
+        "bbox_global": [
+          154,
+          482,
+          164,
+          503
+        ],
+        "type": "label",
+        "confidence": 0.454,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "T",
+        "bbox": [
+          506,
+          779,
+          520,
+          787
+        ],
+        "bbox_global": [
+          506,
+          779,
+          520,
+          787
+        ],
+        "type": "label",
+        "confidence": 0.45,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "83",
+        "bbox": [
+          717,
+          739,
+          738,
+          761
+        ],
+        "bbox_global": [
+          717,
+          739,
+          738,
+          761
+        ],
+        "type": "label",
+        "confidence": 0.45,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "PEOEDS",
+        "bbox": [
+          309,
+          483,
+          317,
+          518
+        ],
+        "bbox_global": [
+          309,
+          483,
+          317,
+          518
+        ],
+        "type": "label",
+        "confidence": 0.441,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "SAPMAE",
+        "bbox": [
+          436,
+          30,
+          442,
+          49
+        ],
+        "bbox_global": [
+          436,
+          30,
+          442,
+          49
+        ],
+        "type": "label",
+        "confidence": 0.426,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "B8/2-38",
+        "bbox": [
+          420,
+          108,
+          430,
+          137
+        ],
+        "bbox_global": [
+          420,
+          108,
+          430,
+          137
+        ],
+        "type": "label",
+        "confidence": 0.4,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "FL/A-AT",
+        "bbox": [
+          421,
+          188,
+          429,
+          213
+        ],
+        "bbox_global": [
+          421,
+          188,
+          429,
+          213
+        ],
+        "type": "label",
+        "confidence": 0.399,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "BEOGGA",
+        "bbox": [
+          215,
+          474,
+          225,
+          496
+        ],
+        "bbox_global": [
+          215,
+          474,
+          225,
+          496
+        ],
+        "type": "label",
+        "confidence": 0.392,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "$\\x$",
+        "bbox": [
+          688,
+          770,
+          724,
+          792
+        ],
+        "bbox_global": [
+          688,
+          770,
+          724,
+          792
+        ],
+        "type": "label",
+        "confidence": 0.389,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "C",
+        "bbox": [
+          544,
+          413,
+          547,
+          416
+        ],
+        "bbox_global": [
+          544,
+          413,
+          547,
+          416
+        ],
+        "type": "label",
+        "confidence": 0.368,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "SNPEEG",
+        "bbox": [
+          208,
+          471,
+          217,
+          499
+        ],
+        "bbox_global": [
+          208,
+          471,
+          217,
+          499
+        ],
+        "type": "label",
+        "confidence": 0.347,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "NTAN",
+        "bbox": [
+          292,
+          419,
+          302,
+          441
+        ],
+        "bbox_global": [
+          292,
+          419,
+          302,
+          441
+        ],
+        "type": "label",
+        "confidence": 0.3,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "L11",
+        "bbox": [
+          774,
+          475,
+          783,
+          493
+        ],
+        "bbox_global": [
+          774,
+          475,
+          783,
+          493
+        ],
+        "type": "label",
+        "confidence": 0.284,
+        "source_tile": "tile_01_00"
+      },
+      {
+        "text": "R0",
+        "bbox": [
+          389,
+          274,
+          397,
+          284
+        ],
+        "bbox_global": [
+          389,
+          274,
+          397,
+          284
+        ],
+        "type": "label",
+        "confidence": 0.277,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "S",
+        "bbox": [
+          854,
+          692,
+          865,
+          705
+        ],
+        "bbox_global": [
+          854,
+          692,
+          865,
+          705
+        ],
+        "type": "label",
+        "confidence": 0.274,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "S",
+        "bbox": [
+          702,
+          699,
+          721,
+          717
+        ],
+        "bbox_global": [
+          702,
+          699,
+          721,
+          717
+        ],
+        "type": "label",
+        "confidence": 0.248,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "LL4",
+        "bbox": [
+          476,
+          701,
+          497,
+          712
+        ],
+        "bbox_global": [
+          476,
+          701,
+          497,
+          712
+        ],
+        "type": "label",
+        "confidence": 0.24,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "2",
+        "bbox": [
+          1005,
+          681,
+          1020,
+          692
+        ],
+        "bbox_global": [
+          1005,
+          681,
+          1020,
+          692
+        ],
+        "type": "label",
+        "confidence": 0.239,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "B",
+        "bbox": [
+          915,
+          453,
+          930,
+          464
+        ],
+        "bbox_global": [
+          915,
+          453,
+          930,
+          464
+        ],
+        "type": "label",
+        "confidence": 0.218,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "2",
+        "bbox": [
+          983,
+          811,
+          997,
+          821
+        ],
+        "bbox_global": [
+          983,
+          811,
+          997,
+          821
+        ],
+        "type": "label",
+        "confidence": 0.216,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "T",
+        "bbox": [
+          913,
+          466,
+          923,
+          476
+        ],
+        "bbox_global": [
+          913,
+          466,
+          923,
+          476
+        ],
+        "type": "label",
+        "confidence": 0.187,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "8",
+        "bbox": [
+          14,
+          719,
+          18,
+          728
+        ],
+        "bbox_global": [
+          14,
+          719,
+          18,
+          728
+        ],
+        "type": "label",
+        "confidence": 0.152,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "6",
+        "bbox": [
+          909,
+          712,
+          921,
+          721
+        ],
+        "bbox_global": [
+          909,
+          712,
+          921,
+          721
+        ],
+        "type": "label",
+        "confidence": 0.143,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "N",
+        "bbox": [
+          831,
+          684,
+          844,
+          694
+        ],
+        "bbox_global": [
+          831,
+          684,
+          844,
+          694
+        ],
+        "type": "label",
+        "confidence": 0.125,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "3",
+        "bbox": [
+          151,
+          774,
+          159,
+          781
+        ],
+        "bbox_global": [
+          151,
+          774,
+          159,
+          781
+        ],
+        "type": "label",
+        "confidence": 0.114,
+        "source_tile": "tile_00_01"
+      },
+      {
+        "text": "A",
+        "bbox": [
+          902,
+          683,
+          917,
+          693
+        ],
+        "bbox_global": [
+          902,
+          683,
+          917,
+          693
+        ],
+        "type": "label",
+        "confidence": 0.104,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "",
+        "bbox": [
+          373,
+          208,
+          384,
+          217
+        ],
+        "bbox_global": [
+          373,
+          208,
+          384,
+          217
+        ],
+        "type": "label",
+        "confidence": 0.0,
+        "source_tile": "tile_00_00"
+      },
+      {
+        "text": "",
+        "bbox": [
+          687,
+          709,
+          703,
+          720
+        ],
+        "bbox_global": [
+          687,
+          709,
+          703,
+          720
+        ],
+        "type": "label",
+        "confidence": 0.0,
+        "source_tile": "tile_01_01"
+      },
+      {
+        "text": "",
+        "bbox": [
+          967,
+          749,
+          982,
+          759
+        ],
+        "bbox_global": [
+          967,
+          749,
+          982,
+          759
+        ],
+        "type": "label",
+        "confidence": 0.0,
+        "source_tile": "tile_01_01"
+      }
+    ]
+  },
+  "all_extractions": [
+    {
+      "text": "PANEL",
+      "bbox": [
+        846,
+        278,
+        859,
+        306
+      ],
+      "bbox_global": [
+        846,
+        278,
+        859,
+        306
+      ],
+      "type": "label",
+      "confidence": 1.0,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "FRONT",
+      "bbox": [
+        856,
+        278,
+        867,
+        306
+      ],
+      "bbox_global": [
+        856,
+        278,
+        867,
+        306
+      ],
+      "type": "label",
+      "confidence": 1.0,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "FLUSH",
+      "bbox": [
+        669,
+        749,
+        691,
+        759
+      ],
+      "bbox_global": [
+        669,
+        749,
+        691,
+        759
+      ],
+      "type": "label",
+      "confidence": 1.0,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "PER CHEMISTRY",
+      "bbox": [
+        316,
+        475,
+        322,
+        517
+      ],
+      "bbox_global": [
+        316,
+        475,
+        322,
+        517
+      ],
+      "type": "label",
+      "confidence": 0.999,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "PASS",
+      "bbox": [
+        590,
+        286,
+        599,
+        302
+      ],
+      "bbox_global": [
+        590,
+        286,
+        599,
+        302
+      ],
+      "type": "label",
+      "confidence": 0.999,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "POST ACCIDENT",
+      "bbox": [
+        905,
+        314,
+        918,
+        400
+      ],
+      "bbox_global": [
+        905,
+        314,
+        918,
+        400
+      ],
+      "type": "label",
+      "confidence": 0.999,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "TANK",
+      "bbox": [
+        669,
+        743,
+        690,
+        751
+      ],
+      "bbox_global": [
+        669,
+        743,
+        690,
+        751
+      ],
+      "type": "label",
+      "confidence": 0.999,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "CUBICLE",
+      "bbox": [
+        980,
+        848,
+        1009,
+        860
+      ],
+      "bbox_global": [
+        980,
+        848,
+        1009,
+        860
+      ],
+      "type": "label",
+      "confidence": 0.999,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "TITLE",
+      "bbox": [
+        998,
+        460,
+        1017,
+        472
+      ],
+      "bbox_global": [
+        998,
+        460,
+        1017,
+        472
+      ],
+      "type": "label",
+      "confidence": 0.999,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "WASTE",
+      "bbox": [
+        1022,
+        692,
+        1040,
+        700
+      ],
+      "bbox_global": [
+        1022,
+        692,
+        1040,
+        700
+      ],
+      "type": "label",
+      "confidence": 0.999,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "20219",
+      "bbox": [
+        1032,
+        678,
+        1051,
+        685
+      ],
+      "bbox_global": [
+        1032,
+        678,
+        1051,
+        685
+      ],
+      "type": "label",
+      "confidence": 0.999,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "SAMPLE",
+      "bbox": [
+        106,
+        450,
+        112,
+        471
+      ],
+      "bbox_global": [
+        106,
+        450,
+        112,
+        471
+      ],
+      "type": "label",
+      "confidence": 0.998,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "SAMPLE",
+      "bbox": [
+        291,
+        608,
+        300,
+        631
+      ],
+      "bbox_global": [
+        291,
+        608,
+        300,
+        631
+      ],
+      "type": "label",
+      "confidence": 0.998,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "SAMPLE CASK",
+      "bbox": [
+        808,
+        483,
+        816,
+        521
+      ],
+      "bbox_global": [
+        808,
+        483,
+        816,
+        521
+      ],
+      "type": "label",
+      "confidence": 0.998,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "SAMPLE CASK",
+      "bbox": [
+        450,
+        664,
+        493,
+        677
+      ],
+      "bbox_global": [
+        450,
+        664,
+        493,
+        677
+      ],
+      "type": "label",
+      "confidence": 0.998,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "1/2",
+      "bbox": [
+        681,
+        792,
+        689,
+        807
+      ],
+      "bbox_global": [
+        681,
+        792,
+        689,
+        807
+      ],
+      "type": "label",
+      "confidence": 0.998,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "MM-585",
+      "bbox": [
+        737,
+        528,
+        744,
+        549
+      ],
+      "bbox_global": [
+        737,
+        528,
+        744,
+        549
+      ],
+      "type": "equipment_tag",
+      "confidence": 0.997,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "SET PRESSURE",
+      "bbox": [
+        322,
+        478,
+        329,
+        517
+      ],
+      "bbox_global": [
+        322,
+        478,
+        329,
+        517
+      ],
+      "type": "label",
+      "confidence": 0.996,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "REACTOR COOLANT",
+      "bbox": [
+        430,
+        15,
+        438,
+        63
+      ],
+      "bbox_global": [
+        430,
+        15,
+        438,
+        63
+      ],
+      "type": "label",
+      "confidence": 0.996,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "3/8",
+      "bbox": [
+        918,
+        687,
+        925,
+        702
+      ],
+      "bbox_global": [
+        918,
+        687,
+        925,
+        702
+      ],
+      "type": "label",
+      "confidence": 0.996,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "(8-3)",
+      "bbox": [
+        411,
+        28,
+        418,
+        42
+      ],
+      "bbox_global": [
+        411,
+        28,
+        418,
+        42
+      ],
+      "type": "label",
+      "confidence": 0.995,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "POST",
+      "bbox": [
+        278,
+        611,
+        287,
+        627
+      ],
+      "bbox_global": [
+        278,
+        611,
+        287,
+        627
+      ],
+      "type": "label",
+      "confidence": 0.995,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "PORT",
+      "bbox": [
+        603,
+        286,
+        611,
+        302
+      ],
+      "bbox_global": [
+        603,
+        286,
+        611,
+        302
+      ],
+      "type": "label",
+      "confidence": 0.995,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "SAMPLE CASK",
+      "bbox": [
+        535,
+        660,
+        580,
+        672
+      ],
+      "bbox_global": [
+        535,
+        660,
+        580,
+        672
+      ],
+      "type": "label",
+      "confidence": 0.995,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "1/2",
+      "bbox": [
+        956,
+        665,
+        964,
+        679
+      ],
+      "bbox_global": [
+        956,
+        665,
+        964,
+        679
+      ],
+      "type": "label",
+      "confidence": 0.995,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "T-312",
+      "bbox": [
+        971,
+        763,
+        992,
+        772
+      ],
+      "bbox_global": [
+        971,
+        763,
+        992,
+        772
+      ],
+      "type": "equipment_tag",
+      "confidence": 0.995,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "CC LOOP",
+      "bbox": [
+        220,
+        2,
+        228,
+        30
+      ],
+      "bbox_global": [
+        220,
+        2,
+        228,
+        30
+      ],
+      "type": "label",
+      "confidence": 0.994,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "ACCIDENT",
+      "bbox": [
+        285,
+        605,
+        293,
+        633
+      ],
+      "bbox_global": [
+        285,
+        605,
+        293,
+        633
+      ],
+      "type": "label",
+      "confidence": 0.993,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "3/8T",
+      "bbox": [
+        571,
+        790,
+        581,
+        814
+      ],
+      "bbox_global": [
+        571,
+        790,
+        581,
+        814
+      ],
+      "type": "label",
+      "confidence": 0.993,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "E-186",
+      "bbox": [
+        304,
+        612,
+        313,
+        630
+      ],
+      "bbox_global": [
+        304,
+        612,
+        313,
+        630
+      ],
+      "type": "equipment_tag",
+      "confidence": 0.992,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "(E-8)",
+      "bbox": [
+        131,
+        458,
+        139,
+        475
+      ],
+      "bbox_global": [
+        131,
+        458,
+        139,
+        475
+      ],
+      "type": "label",
+      "confidence": 0.991,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "HANOLING",
+      "bbox": [
+        1028,
+        817,
+        1055,
+        824
+      ],
+      "bbox_global": [
+        1028,
+        817,
+        1055,
+        824
+      ],
+      "type": "label",
+      "confidence": 0.991,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "SAMPLE PANEL",
+      "bbox": [
+        917,
+        317,
+        928,
+        397
+      ],
+      "bbox_global": [
+        917,
+        317,
+        928,
+        397
+      ],
+      "type": "label",
+      "confidence": 0.99,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "MM-585",
+      "bbox": [
+        502,
+        740,
+        528,
+        753
+      ],
+      "bbox_global": [
+        502,
+        740,
+        528,
+        753
+      ],
+      "type": "equipment_tag",
+      "confidence": 0.99,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "CC LOOP A",
+      "bbox": [
+        337,
+        652,
+        347,
+        685
+      ],
+      "bbox_global": [
+        337,
+        652,
+        347,
+        685
+      ],
+      "type": "label",
+      "confidence": 0.989,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "TK-2288",
+      "bbox": [
+        455,
+        658,
+        485,
+        668
+      ],
+      "bbox_global": [
+        455,
+        658,
+        485,
+        668
+      ],
+      "type": "instrument_tag",
+      "confidence": 0.989,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "OR COOLANT",
+      "bbox": [
+        110,
+        450,
+        117,
+        487
+      ],
+      "bbox_global": [
+        110,
+        450,
+        117,
+        487
+      ],
+      "type": "label",
+      "confidence": 0.988,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "CP-419",
+      "bbox": [
+        925,
+        337,
+        938,
+        376
+      ],
+      "bbox_global": [
+        925,
+        337,
+        938,
+        376
+      ],
+      "type": "equipment_tag",
+      "confidence": 0.987,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "MM-687",
+      "bbox": [
+        585,
+        738,
+        611,
+        748
+      ],
+      "bbox_global": [
+        585,
+        738,
+        611,
+        748
+      ],
+      "type": "equipment_tag",
+      "confidence": 0.987,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "WASTE PROCESS",
+      "bbox": [
+        1019,
+        756,
+        1064,
+        765
+      ],
+      "bbox_global": [
+        1019,
+        756,
+        1064,
+        765
+      ],
+      "type": "label",
+      "confidence": 0.987,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "INSIDE CONT.",
+      "bbox": [
+        898,
+        744,
+        939,
+        756
+      ],
+      "bbox_global": [
+        898,
+        744,
+        939,
+        756
+      ],
+      "type": "label",
+      "confidence": 0.986,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "PID- 1-SS-LR20520",
+      "bbox": [
+        529,
+        407,
+        547,
+        537
+      ],
+      "bbox_global": [
+        529,
+        407,
+        547,
+        537
+      ],
+      "type": "label",
+      "confidence": 0.985,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "ld",
+      "bbox": [
+        283,
+        476,
+        290,
+        484
+      ],
+      "bbox_global": [
+        283,
+        476,
+        290,
+        484
+      ],
+      "type": "label",
+      "confidence": 0.984,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "TK-197",
+      "bbox": [
+        669,
+        736,
+        691,
+        744
+      ],
+      "bbox_global": [
+        669,
+        736,
+        691,
+        744
+      ],
+      "type": "instrument_tag",
+      "confidence": 0.984,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "CUBICLE",
+      "bbox": [
+        730,
+        631,
+        761,
+        643
+      ],
+      "bbox_global": [
+        730,
+        631,
+        761,
+        643
+      ],
+      "type": "label",
+      "confidence": 0.984,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "(PACKAGE UNIT)",
+      "bbox": [
+        192,
+        462,
+        201,
+        505
+      ],
+      "bbox_global": [
+        192,
+        462,
+        201,
+        505
+      ],
+      "type": "label",
+      "confidence": 0.983,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "SURVEY",
+      "bbox": [
+        597,
+        284,
+        605,
+        305
+      ],
+      "bbox_global": [
+        597,
+        284,
+        605,
+        305
+      ],
+      "type": "label",
+      "confidence": 0.983,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "TK-228A",
+      "bbox": [
+        543,
+        653,
+        572,
+        664
+      ],
+      "bbox_global": [
+        543,
+        653,
+        572,
+        664
+      ],
+      "type": "equipment_tag",
+      "confidence": 0.983,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "V303",
+      "bbox": [
+        731,
+        691,
+        748,
+        700
+      ],
+      "bbox_global": [
+        731,
+        691,
+        748,
+        700
+      ],
+      "type": "valve_tag",
+      "confidence": 0.983,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "V274",
+      "bbox": [
+        947,
+        653,
+        964,
+        662
+      ],
+      "bbox_global": [
+        947,
+        653,
+        964,
+        662
+      ],
+      "type": "valve_tag",
+      "confidence": 0.983,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "20205",
+      "bbox": [
+        345,
+        500,
+        354,
+        519
+      ],
+      "bbox_global": [
+        345,
+        500,
+        354,
+        519
+      ],
+      "type": "label",
+      "confidence": 0.982,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "20518",
+      "bbox": [
+        122,
+        450,
+        131,
+        472
+      ],
+      "bbox_global": [
+        122,
+        450,
+        131,
+        472
+      ],
+      "type": "label",
+      "confidence": 0.981,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "PROC",
+      "bbox": [
+        1042,
+        694,
+        1053,
+        698
+      ],
+      "bbox_global": [
+        1042,
+        694,
+        1053,
+        698
+      ],
+      "type": "label",
+      "confidence": 0.981,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "V867",
+      "bbox": [
+        585,
+        780,
+        603,
+        790
+      ],
+      "bbox_global": [
+        585,
+        780,
+        603,
+        790
+      ],
+      "type": "valve_tag",
+      "confidence": 0.98,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "(A-5)",
+      "bbox": [
+        346,
+        692,
+        354,
+        708
+      ],
+      "bbox_global": [
+        346,
+        692,
+        354,
+        708
+      ],
+      "type": "label",
+      "confidence": 0.978,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "DM-3/8T",
+      "bbox": [
+        469,
+        487,
+        479,
+        514
+      ],
+      "bbox_global": [
+        469,
+        487,
+        479,
+        514
+      ],
+      "type": "label",
+      "confidence": 0.978,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "V337",
+      "bbox": [
+        803,
+        326,
+        811,
+        342
+      ],
+      "bbox_global": [
+        803,
+        326,
+        811,
+        342
+      ],
+      "type": "valve_tag",
+      "confidence": 0.977,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "TK-2288",
+      "bbox": [
+        815,
+        490,
+        823,
+        515
+      ],
+      "bbox_global": [
+        815,
+        490,
+        823,
+        515
+      ],
+      "type": "instrument_tag",
+      "confidence": 0.976,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "28205",
+      "bbox": [
+        346,
+        659,
+        355,
+        679
+      ],
+      "bbox_global": [
+        346,
+        659,
+        355,
+        679
+      ],
+      "type": "label",
+      "confidence": 0.975,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "V866",
+      "bbox": [
+        509,
+        790,
+        525,
+        798
+      ],
+      "bbox_global": [
+        509,
+        790,
+        525,
+        798
+      ],
+      "type": "valve_tag",
+      "confidence": 0.974,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "LLR NOTE",
+      "bbox": [
+        902,
+        644,
+        942,
+        657
+      ],
+      "bbox_global": [
+        902,
+        644,
+        942,
+        657
+      ],
+      "type": "label",
+      "confidence": 0.966,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "TR.14",
+      "bbox": [
+        908,
+        723,
+        927,
+        732
+      ],
+      "bbox_global": [
+        908,
+        723,
+        927,
+        732
+      ],
+      "type": "label",
+      "confidence": 0.966,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "WLO DR 264",
+      "bbox": [
+        1023,
+        733,
+        1062,
+        743
+      ],
+      "bbox_global": [
+        1023,
+        733,
+        1062,
+        743
+      ],
+      "type": "label",
+      "confidence": 0.966,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "DEMIN. SYSTEM",
+      "bbox": [
+        468,
+        527,
+        478,
+        568
+      ],
+      "bbox_global": [
+        468,
+        527,
+        478,
+        568
+      ],
+      "type": "label",
+      "confidence": 0.965,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "SS",
+      "bbox": [
+        149,
+        176,
+        158,
+        185
+      ],
+      "bbox_global": [
+        149,
+        176,
+        158,
+        185
+      ],
+      "type": "label",
+      "confidence": 0.964,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "-LR NOTE",
+      "bbox": [
+        540,
+        375,
+        551,
+        412
+      ],
+      "bbox_global": [
+        540,
+        375,
+        551,
+        412
+      ],
+      "type": "label",
+      "confidence": 0.964,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "20495",
+      "bbox": [
+        1031,
+        803,
+        1050,
+        811
+      ],
+      "bbox_global": [
+        1031,
+        803,
+        1050,
+        811
+      ],
+      "type": "label",
+      "confidence": 0.964,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "CC LOOP A",
+      "bbox": [
+        337,
+        493,
+        347,
+        524
+      ],
+      "bbox_global": [
+        337,
+        493,
+        347,
+        524
+      ],
+      "type": "label",
+      "confidence": 0.962,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "PASS PANEL",
+      "bbox": [
+        726,
+        639,
+        766,
+        651
+      ],
+      "bbox_global": [
+        726,
+        639,
+        766,
+        651
+      ],
+      "type": "label",
+      "confidence": 0.962,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "REF. DRAWING NO.",
+      "bbox": [
+        845,
+        450,
+        901,
+        461
+      ],
+      "bbox_global": [
+        845,
+        450,
+        901,
+        461
+      ],
+      "type": "label",
+      "confidence": 0.96,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "SYSTEM HX.",
+      "bbox": [
+        297,
+        603,
+        306,
+        638
+      ],
+      "bbox_global": [
+        297,
+        603,
+        306,
+        638
+      ],
+      "type": "label",
+      "confidence": 0.954,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "9662",
+      "bbox": [
+        264,
+        69,
+        273,
+        85
+      ],
+      "bbox_global": [
+        264,
+        69,
+        273,
+        85
+      ],
+      "type": "label",
+      "confidence": 0.952,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "PRIMARY AIR",
+      "bbox": [
+        1023,
+        821,
+        1060,
+        830
+      ],
+      "bbox_global": [
+        1023,
+        821,
+        1060,
+        830
+      ],
+      "type": "label",
+      "confidence": 0.952,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "(0-8)",
+      "bbox": [
+        1047,
+        794,
+        1063,
+        802
+      ],
+      "bbox_global": [
+        1047,
+        794,
+        1063,
+        802
+      ],
+      "type": "label",
+      "confidence": 0.952,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "V866",
+      "bbox": [
+        691,
+        531,
+        700,
+        547
+      ],
+      "bbox_global": [
+        691,
+        531,
+        700,
+        547
+      ],
+      "type": "valve_tag",
+      "confidence": 0.951,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "PASS PANEL",
+      "bbox": [
+        977,
+        855,
+        1012,
+        867
+      ],
+      "bbox_global": [
+        977,
+        855,
+        1012,
+        867
+      ],
+      "type": "label",
+      "confidence": 0.951,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "LR NOTE 3",
+      "bbox": [
+        712,
+        793,
+        760,
+        804
+      ],
+      "bbox_global": [
+        712,
+        793,
+        760,
+        804
+      ],
+      "type": "label",
+      "confidence": 0.95,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "V232",
+      "bbox": [
+        531,
+        348,
+        541,
+        365
+      ],
+      "bbox_global": [
+        531,
+        348,
+        541,
+        365
+      ],
+      "type": "valve_tag",
+      "confidence": 0.949,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "20222",
+      "bbox": [
+        1030,
+        743,
+        1050,
+        751
+      ],
+      "bbox_global": [
+        1030,
+        743,
+        1050,
+        751
+      ],
+      "type": "label",
+      "confidence": 0.949,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "3/8",
+      "bbox": [
+        992,
+        922,
+        1006,
+        929
+      ],
+      "bbox_global": [
+        992,
+        922,
+        1006,
+        929
+      ],
+      "type": "label",
+      "confidence": 0.947,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "WLO DR 141",
+      "bbox": [
+        1026,
+        668,
+        1060,
+        677
+      ],
+      "bbox_global": [
+        1026,
+        668,
+        1060,
+        677
+      ],
+      "type": "label",
+      "confidence": 0.946,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "11",
+      "bbox": [
+        272,
+        71,
+        280,
+        81
+      ],
+      "bbox_global": [
+        272,
+        71,
+        280,
+        81
+      ],
+      "type": "label",
+      "confidence": 0.944,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "LIOUIO",
+      "bbox": [
+        969,
+        776,
+        993,
+        787
+      ],
+      "bbox_global": [
+        969,
+        776,
+        993,
+        787
+      ],
+      "type": "label",
+      "confidence": 0.937,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "V897A",
+      "bbox": [
+        525,
+        691,
+        549,
+        700
+      ],
+      "bbox_global": [
+        525,
+        691,
+        549,
+        700
+      ],
+      "type": "valve_tag",
+      "confidence": 0.936,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "V273",
+      "bbox": [
+        935,
+        670,
+        951,
+        679
+      ],
+      "bbox_global": [
+        935,
+        670,
+        951,
+        679
+      ],
+      "type": "valve_tag",
+      "confidence": 0.933,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "-LR NOTE 2",
+      "bbox": [
+        230,
+        384,
+        241,
+        428
+      ],
+      "bbox_global": [
+        230,
+        384,
+        241,
+        428
+      ],
+      "type": "label",
+      "confidence": 0.932,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "1/4-",
+      "bbox": [
+        796,
+        327,
+        805,
+        341
+      ],
+      "bbox_global": [
+        796,
+        327,
+        805,
+        341
+      ],
+      "type": "label",
+      "confidence": 0.931,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "CNT.REC.",
+      "bbox": [
+        1024,
+        924,
+        1052,
+        932
+      ],
+      "bbox_global": [
+        1024,
+        924,
+        1052,
+        932
+      ],
+      "type": "label",
+      "confidence": 0.922,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "2322",
+      "bbox": [
+        483,
+        466,
+        491,
+        482
+      ],
+      "bbox_global": [
+        483,
+        466,
+        491,
+        482
+      ],
+      "type": "label",
+      "confidence": 0.915,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "PAB",
+      "bbox": [
+        1014,
+        812,
+        1029,
+        820
+      ],
+      "bbox_global": [
+        1014,
+        812,
+        1029,
+        820
+      ],
+      "type": "label",
+      "confidence": 0.91,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "F.C.",
+      "bbox": [
+        855,
+        670,
+        868,
+        678
+      ],
+      "bbox_global": [
+        855,
+        670,
+        868,
+        678
+      ],
+      "type": "label",
+      "confidence": 0.908,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "X",
+      "bbox": [
+        741,
+        810,
+        759,
+        823
+      ],
+      "bbox_global": [
+        741,
+        810,
+        759,
+        823
+      ],
+      "type": "label",
+      "confidence": 0.902,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "3/8*1",
+      "bbox": [
+        560,
+        457,
+        570,
+        476
+      ],
+      "bbox_global": [
+        560,
+        457,
+        570,
+        476
+      ],
+      "type": "label",
+      "confidence": 0.901,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "3/81",
+      "bbox": [
+        684,
+        454,
+        694,
+        473
+      ],
+      "bbox_global": [
+        684,
+        454,
+        694,
+        473
+      ],
+      "type": "label",
+      "confidence": 0.9,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "LIOUIO",
+      "bbox": [
+        1024,
+        687,
+        1042,
+        694
+      ],
+      "bbox_global": [
+        1024,
+        687,
+        1042,
+        694
+      ],
+      "type": "label",
+      "confidence": 0.899,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "20350",
+      "bbox": [
+        477,
+        541,
+        484,
+        560
+      ],
+      "bbox_global": [
+        477,
+        541,
+        484,
+        560
+      ],
+      "type": "label",
+      "confidence": 0.898,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "1/2\u00d7 3/4",
+      "bbox": [
+        965,
+        789,
+        1000,
+        801
+      ],
+      "bbox_global": [
+        965,
+        789,
+        1000,
+        801
+      ],
+      "type": "label",
+      "confidence": 0.893,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "LIOUTO DRAINS",
+      "bbox": [
+        1020,
+        751,
+        1064,
+        758
+      ],
+      "bbox_global": [
+        1020,
+        751,
+        1064,
+        758
+      ],
+      "type": "label",
+      "confidence": 0.893,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "3/8\u00b0T",
+      "bbox": [
+        530,
+        792,
+        538,
+        814
+      ],
+      "bbox_global": [
+        530,
+        792,
+        538,
+        814
+      ],
+      "type": "label",
+      "confidence": 0.889,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "ld",
+      "bbox": [
+        281,
+        513,
+        290,
+        522
+      ],
+      "bbox_global": [
+        281,
+        513,
+        290,
+        522
+      ],
+      "type": "label",
+      "confidence": 0.887,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "IA-5)",
+      "bbox": [
+        347,
+        468,
+        355,
+        482
+      ],
+      "bbox_global": [
+        347,
+        468,
+        355,
+        482
+      ],
+      "type": "label",
+      "confidence": 0.886,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "T.C. DR. 264",
+      "bbox": [
+        823,
+        643,
+        869,
+        653
+      ],
+      "bbox_global": [
+        823,
+        643,
+        869,
+        653
+      ],
+      "type": "label",
+      "confidence": 0.886,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "3/8*T",
+      "bbox": [
+        825,
+        425,
+        832,
+        444
+      ],
+      "bbox_global": [
+        825,
+        425,
+        832,
+        444
+      ],
+      "type": "label",
+      "confidence": 0.884,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "v208",
+      "bbox": [
+        635,
+        322,
+        644,
+        338
+      ],
+      "bbox_global": [
+        635,
+        322,
+        644,
+        338
+      ],
+      "type": "valve_tag",
+      "confidence": 0.881,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "3/81",
+      "bbox": [
+        606,
+        696,
+        613,
+        714
+      ],
+      "bbox_global": [
+        606,
+        696,
+        613,
+        714
+      ],
+      "type": "label",
+      "confidence": 0.88,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "PIO-1-SS-820528",
+      "bbox": [
+        838,
+        460,
+        893,
+        474
+      ],
+      "bbox_global": [
+        838,
+        460,
+        893,
+        474
+      ],
+      "type": "label",
+      "confidence": 0.877,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "OPS1& 3",
+      "bbox": [
+        116,
+        450,
+        123,
+        483
+      ],
+      "bbox_global": [
+        116,
+        450,
+        123,
+        483
+      ],
+      "type": "label",
+      "confidence": 0.876,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "DRAINER",
+      "bbox": [
+        969,
+        770,
+        995,
+        779
+      ],
+      "bbox_global": [
+        969,
+        770,
+        995,
+        779
+      ],
+      "type": "label",
+      "confidence": 0.876,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "Y868",
+      "bbox": [
+        741,
+        803,
+        759,
+        814
+      ],
+      "bbox_global": [
+        741,
+        803,
+        759,
+        814
+      ],
+      "type": "label",
+      "confidence": 0.873,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "1.0/1",
+      "bbox": [
+        233,
+        182,
+        240,
+        196
+      ],
+      "bbox_global": [
+        233,
+        182,
+        240,
+        196
+      ],
+      "type": "label",
+      "confidence": 0.866,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "cC-1",
+      "bbox": [
+        341,
+        556,
+        350,
+        572
+      ],
+      "bbox_global": [
+        341,
+        556,
+        350,
+        572
+      ],
+      "type": "label",
+      "confidence": 0.866,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "SAMPLE SYS. NUCLEAR POST ACCIDENT DETAIL",
+      "bbox": [
+        928,
+        467,
+        1065,
+        486
+      ],
+      "bbox_global": [
+        928,
+        467,
+        1065,
+        486
+      ],
+      "type": "label",
+      "confidence": 0.865,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "98988",
+      "bbox": [
+        476,
+        694,
+        498,
+        703
+      ],
+      "bbox_global": [
+        476,
+        694,
+        498,
+        703
+      ],
+      "type": "label",
+      "confidence": 0.861,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "3/8*T",
+      "bbox": [
+        770,
+        424,
+        777,
+        444
+      ],
+      "bbox_global": [
+        770,
+        424,
+        777,
+        444
+      ],
+      "type": "label",
+      "confidence": 0.858,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "10-7)",
+      "bbox": [
+        477,
+        572,
+        484,
+        587
+      ],
+      "bbox_global": [
+        477,
+        572,
+        484,
+        587
+      ],
+      "type": "label",
+      "confidence": 0.854,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "V272",
+      "bbox": [
+        907,
+        703,
+        924,
+        713
+      ],
+      "bbox_global": [
+        907,
+        703,
+        924,
+        713
+      ],
+      "type": "valve_tag",
+      "confidence": 0.854,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "v8988",
+      "bbox": [
+        782,
+        503,
+        791,
+        526
+      ],
+      "bbox_global": [
+        782,
+        503,
+        791,
+        526
+      ],
+      "type": "valve_tag",
+      "confidence": 0.853,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "50202",
+      "bbox": [
+        212,
+        1,
+        221,
+        22
+      ],
+      "bbox_global": [
+        212,
+        1,
+        221,
+        22
+      ],
+      "type": "label",
+      "confidence": 0.85,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "cc-1",
+      "bbox": [
+        340,
+        614,
+        350,
+        631
+      ],
+      "bbox_global": [
+        340,
+        614,
+        350,
+        631
+      ],
+      "type": "label",
+      "confidence": 0.85,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "V8978",
+      "bbox": [
+        782,
+        474,
+        790,
+        495
+      ],
+      "bbox_global": [
+        782,
+        474,
+        790,
+        495
+      ],
+      "type": "valve_tag",
+      "confidence": 0.849,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "1/21",
+      "bbox": [
+        596,
+        322,
+        605,
+        338
+      ],
+      "bbox_global": [
+        596,
+        322,
+        605,
+        338
+      ],
+      "type": "label",
+      "confidence": 0.847,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "V265",
+      "bbox": [
+        677,
+        467,
+        685,
+        483
+      ],
+      "bbox_global": [
+        677,
+        467,
+        685,
+        483
+      ],
+      "type": "valve_tag",
+      "confidence": 0.843,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "WO",
+      "bbox": [
+        142,
+        176,
+        149,
+        184
+      ],
+      "bbox_global": [
+        142,
+        176,
+        149,
+        184
+      ],
+      "type": "label",
+      "confidence": 0.838,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "V266",
+      "bbox": [
+        791,
+        689,
+        806,
+        697
+      ],
+      "bbox_global": [
+        791,
+        689,
+        806,
+        697
+      ],
+      "type": "valve_tag",
+      "confidence": 0.836,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "LT.C. DR.141",
+      "bbox": [
+        958,
+        642,
+        998,
+        653
+      ],
+      "bbox_global": [
+        958,
+        642,
+        998,
+        653
+      ],
+      "type": "label",
+      "confidence": 0.828,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "VENT SYSTE",
+      "bbox": [
+        1028,
+        811,
+        1064,
+        819
+      ],
+      "bbox_global": [
+        1028,
+        811,
+        1064,
+        819
+      ],
+      "type": "label",
+      "confidence": 0.827,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "1/4-T",
+      "bbox": [
+        563,
+        364,
+        570,
+        380
+      ],
+      "bbox_global": [
+        563,
+        364,
+        570,
+        380
+      ],
+      "type": "label",
+      "confidence": 0.82,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "3/8'",
+      "bbox": [
+        763,
+        686,
+        779,
+        695
+      ],
+      "bbox_global": [
+        763,
+        686,
+        779,
+        695
+      ],
+      "type": "label",
+      "confidence": 0.814,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "iV898A",
+      "bbox": [
+        558,
+        690,
+        583,
+        698
+      ],
+      "bbox_global": [
+        558,
+        690,
+        583,
+        698
+      ],
+      "type": "label",
+      "confidence": 0.812,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "3/8\"T",
+      "bbox": [
+        325,
+        524,
+        333,
+        541
+      ],
+      "bbox_global": [
+        325,
+        524,
+        333,
+        541
+      ],
+      "type": "label",
+      "confidence": 0.811,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "V26",
+      "bbox": [
+        812,
+        656,
+        825,
+        663
+      ],
+      "bbox_global": [
+        812,
+        656,
+        825,
+        663
+      ],
+      "type": "valve_tag",
+      "confidence": 0.801,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "2\u222082",
+      "bbox": [
+        274,
+        510,
+        283,
+        527
+      ],
+      "bbox_global": [
+        274,
+        510,
+        283,
+        527
+      ],
+      "type": "label",
+      "confidence": 0.8,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "SC2A",
+      "bbox": [
+        122,
+        209,
+        132,
+        225
+      ],
+      "bbox_global": [
+        122,
+        209,
+        132,
+        225
+      ],
+      "type": "label",
+      "confidence": 0.794,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "SS",
+      "bbox": [
+        381,
+        275,
+        389,
+        284
+      ],
+      "bbox_global": [
+        381,
+        275,
+        389,
+        284
+      ],
+      "type": "label",
+      "confidence": 0.787,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "T.C.",
+      "bbox": [
+        909,
+        729,
+        926,
+        738
+      ],
+      "bbox_global": [
+        909,
+        729,
+        926,
+        738
+      ],
+      "type": "label",
+      "confidence": 0.758,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "./1",
+      "bbox": [
+        282,
+        446,
+        290,
+        459
+      ],
+      "bbox_global": [
+        282,
+        446,
+        290,
+        459
+      ],
+      "type": "label",
+      "confidence": 0.746,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "V/4'T",
+      "bbox": [
+        557,
+        319,
+        563,
+        332
+      ],
+      "bbox_global": [
+        557,
+        319,
+        563,
+        332
+      ],
+      "type": "label",
+      "confidence": 0.746,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "1ZEA",
+      "bbox": [
+        81,
+        85,
+        90,
+        100
+      ],
+      "bbox_global": [
+        81,
+        85,
+        90,
+        100
+      ],
+      "type": "label",
+      "confidence": 0.745,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "ADd",
+      "bbox": [
+        299,
+        491,
+        307,
+        503
+      ],
+      "bbox_global": [
+        299,
+        491,
+        307,
+        503
+      ],
+      "type": "label",
+      "confidence": 0.745,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "222A",
+      "bbox": [
+        80,
+        51,
+        88,
+        68
+      ],
+      "bbox_global": [
+        80,
+        51,
+        88,
+        68
+      ],
+      "type": "label",
+      "confidence": 0.718,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "2\u222082",
+      "bbox": [
+        275,
+        472,
+        283,
+        488
+      ],
+      "bbox_global": [
+        275,
+        472,
+        283,
+        488
+      ],
+      "type": "label",
+      "confidence": 0.712,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "21908",
+      "bbox": [
+        418,
+        31,
+        425,
+        48
+      ],
+      "bbox_global": [
+        418,
+        31,
+        425,
+        48
+      ],
+      "type": "label",
+      "confidence": 0.7,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "C12A",
+      "bbox": [
+        219,
+        222,
+        229,
+        238
+      ],
+      "bbox_global": [
+        219,
+        222,
+        229,
+        238
+      ],
+      "type": "label",
+      "confidence": 0.699,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "-2",
+      "bbox": [
+        919,
+        713,
+        933,
+        723
+      ],
+      "bbox_global": [
+        919,
+        713,
+        933,
+        723
+      ],
+      "type": "label",
+      "confidence": 0.697,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": ".D/1",
+      "bbox": [
+        330,
+        184,
+        336,
+        196
+      ],
+      "bbox_global": [
+        330,
+        184,
+        336,
+        196
+      ],
+      "type": "label",
+      "confidence": 0.67,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "1.D/1-WO",
+      "bbox": [
+        94,
+        147,
+        104,
+        173
+      ],
+      "bbox_global": [
+        94,
+        147,
+        104,
+        173
+      ],
+      "type": "label",
+      "confidence": 0.662,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "192",
+      "bbox": [
+        133,
+        195,
+        143,
+        203
+      ],
+      "bbox_global": [
+        133,
+        195,
+        143,
+        203
+      ],
+      "type": "label",
+      "confidence": 0.661,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "2122",
+      "bbox": [
+        258,
+        223,
+        267,
+        237
+      ],
+      "bbox_global": [
+        258,
+        223,
+        267,
+        237
+      ],
+      "type": "label",
+      "confidence": 0.636,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "2286",
+      "bbox": [
+        292,
+        491,
+        300,
+        506
+      ],
+      "bbox_global": [
+        292,
+        491,
+        300,
+        506
+      ],
+      "type": "label",
+      "confidence": 0.634,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "\u00a3 81 SO007",
+      "bbox": [
+        425,
+        20,
+        433,
+        55
+      ],
+      "bbox_global": [
+        425,
+        20,
+        433,
+        55
+      ],
+      "type": "label",
+      "confidence": 0.628,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "PANAL",
+      "bbox": [
+        504,
+        263,
+        516,
+        290
+      ],
+      "bbox_global": [
+        504,
+        263,
+        516,
+        290
+      ],
+      "type": "label",
+      "confidence": 0.624,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "OCZA",
+      "bbox": [
+        378,
+        225,
+        385,
+        240
+      ],
+      "bbox_global": [
+        378,
+        225,
+        385,
+        240
+      ],
+      "type": "label",
+      "confidence": 0.614,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "SS",
+      "bbox": [
+        150,
+        194,
+        164,
+        204
+      ],
+      "bbox_global": [
+        150,
+        194,
+        164,
+        204
+      ],
+      "type": "label",
+      "confidence": 0.601,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "ZB2A",
+      "bbox": [
+        263,
+        433,
+        273,
+        449
+      ],
+      "bbox_global": [
+        263,
+        433,
+        273,
+        449
+      ],
+      "type": "label",
+      "confidence": 0.587,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "3",
+      "bbox": [
+        388,
+        205,
+        404,
+        218
+      ],
+      "bbox_global": [
+        388,
+        205,
+        404,
+        218
+      ],
+      "type": "label",
+      "confidence": 0.582,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "EENA",
+      "bbox": [
+        276,
+        444,
+        284,
+        458
+      ],
+      "bbox_global": [
+        276,
+        444,
+        284,
+        458
+      ],
+      "type": "label",
+      "confidence": 0.542,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "2",
+      "bbox": [
+        829,
+        700,
+        845,
+        720
+      ],
+      "bbox_global": [
+        829,
+        700,
+        845,
+        720
+      ],
+      "type": "label",
+      "confidence": 0.53,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "ERONNT",
+      "bbox": [
+        496,
+        263,
+        506,
+        289
+      ],
+      "bbox_global": [
+        496,
+        263,
+        506,
+        289
+      ],
+      "type": "label",
+      "confidence": 0.529,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "412",
+      "bbox": [
+        524,
+        695,
+        584,
+        711
+      ],
+      "bbox_global": [
+        524,
+        695,
+        584,
+        711
+      ],
+      "type": "label",
+      "confidence": 0.523,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "1E2A",
+      "bbox": [
+        191,
+        196,
+        199,
+        210
+      ],
+      "bbox_global": [
+        191,
+        196,
+        199,
+        210
+      ],
+      "type": "label",
+      "confidence": 0.515,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "(1-0",
+      "bbox": [
+        214,
+        43,
+        220,
+        56
+      ],
+      "bbox_global": [
+        214,
+        43,
+        220,
+        56
+      ],
+      "type": "label",
+      "confidence": 0.512,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "-/",
+      "bbox": [
+        298,
+        422,
+        307,
+        438
+      ],
+      "bbox_global": [
+        298,
+        422,
+        307,
+        438
+      ],
+      "type": "label",
+      "confidence": 0.512,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "4L1",
+      "bbox": [
+        773,
+        506,
+        782,
+        524
+      ],
+      "bbox_global": [
+        773,
+        506,
+        782,
+        524
+      ],
+      "type": "label",
+      "confidence": 0.51,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "114/1",
+      "bbox": [
+        294,
+        263,
+        302,
+        279
+      ],
+      "bbox_global": [
+        294,
+        263,
+        302,
+        279
+      ],
+      "type": "label",
+      "confidence": 0.502,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "O8/8-WO",
+      "bbox": [
+        92,
+        16,
+        102,
+        45
+      ],
+      "bbox_global": [
+        92,
+        16,
+        102,
+        45
+      ],
+      "type": "label",
+      "confidence": 0.501,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "AROOO",
+      "bbox": [
+        154,
+        482,
+        164,
+        503
+      ],
+      "bbox_global": [
+        154,
+        482,
+        164,
+        503
+      ],
+      "type": "label",
+      "confidence": 0.454,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "T",
+      "bbox": [
+        506,
+        779,
+        520,
+        787
+      ],
+      "bbox_global": [
+        506,
+        779,
+        520,
+        787
+      ],
+      "type": "label",
+      "confidence": 0.45,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "83",
+      "bbox": [
+        717,
+        739,
+        738,
+        761
+      ],
+      "bbox_global": [
+        717,
+        739,
+        738,
+        761
+      ],
+      "type": "label",
+      "confidence": 0.45,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "PEOEDS",
+      "bbox": [
+        309,
+        483,
+        317,
+        518
+      ],
+      "bbox_global": [
+        309,
+        483,
+        317,
+        518
+      ],
+      "type": "label",
+      "confidence": 0.441,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "SAPMAE",
+      "bbox": [
+        436,
+        30,
+        442,
+        49
+      ],
+      "bbox_global": [
+        436,
+        30,
+        442,
+        49
+      ],
+      "type": "label",
+      "confidence": 0.426,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "B8/2-38",
+      "bbox": [
+        420,
+        108,
+        430,
+        137
+      ],
+      "bbox_global": [
+        420,
+        108,
+        430,
+        137
+      ],
+      "type": "label",
+      "confidence": 0.4,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "FL/A-AT",
+      "bbox": [
+        421,
+        188,
+        429,
+        213
+      ],
+      "bbox_global": [
+        421,
+        188,
+        429,
+        213
+      ],
+      "type": "label",
+      "confidence": 0.399,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "BEOGGA",
+      "bbox": [
+        215,
+        474,
+        225,
+        496
+      ],
+      "bbox_global": [
+        215,
+        474,
+        225,
+        496
+      ],
+      "type": "label",
+      "confidence": 0.392,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "$\\x$",
+      "bbox": [
+        688,
+        770,
+        724,
+        792
+      ],
+      "bbox_global": [
+        688,
+        770,
+        724,
+        792
+      ],
+      "type": "label",
+      "confidence": 0.389,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "C",
+      "bbox": [
+        544,
+        413,
+        547,
+        416
+      ],
+      "bbox_global": [
+        544,
+        413,
+        547,
+        416
+      ],
+      "type": "label",
+      "confidence": 0.368,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "SNPEEG",
+      "bbox": [
+        208,
+        471,
+        217,
+        499
+      ],
+      "bbox_global": [
+        208,
+        471,
+        217,
+        499
+      ],
+      "type": "label",
+      "confidence": 0.347,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "NTAN",
+      "bbox": [
+        292,
+        419,
+        302,
+        441
+      ],
+      "bbox_global": [
+        292,
+        419,
+        302,
+        441
+      ],
+      "type": "label",
+      "confidence": 0.3,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "L11",
+      "bbox": [
+        774,
+        475,
+        783,
+        493
+      ],
+      "bbox_global": [
+        774,
+        475,
+        783,
+        493
+      ],
+      "type": "label",
+      "confidence": 0.284,
+      "source_tile": "tile_01_00"
+    },
+    {
+      "text": "R0",
+      "bbox": [
+        389,
+        274,
+        397,
+        284
+      ],
+      "bbox_global": [
+        389,
+        274,
+        397,
+        284
+      ],
+      "type": "label",
+      "confidence": 0.277,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "S",
+      "bbox": [
+        854,
+        692,
+        865,
+        705
+      ],
+      "bbox_global": [
+        854,
+        692,
+        865,
+        705
+      ],
+      "type": "label",
+      "confidence": 0.274,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "S",
+      "bbox": [
+        702,
+        699,
+        721,
+        717
+      ],
+      "bbox_global": [
+        702,
+        699,
+        721,
+        717
+      ],
+      "type": "label",
+      "confidence": 0.248,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "LL4",
+      "bbox": [
+        476,
+        701,
+        497,
+        712
+      ],
+      "bbox_global": [
+        476,
+        701,
+        497,
+        712
+      ],
+      "type": "label",
+      "confidence": 0.24,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "2",
+      "bbox": [
+        1005,
+        681,
+        1020,
+        692
+      ],
+      "bbox_global": [
+        1005,
+        681,
+        1020,
+        692
+      ],
+      "type": "label",
+      "confidence": 0.239,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "B",
+      "bbox": [
+        915,
+        453,
+        930,
+        464
+      ],
+      "bbox_global": [
+        915,
+        453,
+        930,
+        464
+      ],
+      "type": "label",
+      "confidence": 0.218,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "2",
+      "bbox": [
+        983,
+        811,
+        997,
+        821
+      ],
+      "bbox_global": [
+        983,
+        811,
+        997,
+        821
+      ],
+      "type": "label",
+      "confidence": 0.216,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "T",
+      "bbox": [
+        913,
+        466,
+        923,
+        476
+      ],
+      "bbox_global": [
+        913,
+        466,
+        923,
+        476
+      ],
+      "type": "label",
+      "confidence": 0.187,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "8",
+      "bbox": [
+        14,
+        719,
+        18,
+        728
+      ],
+      "bbox_global": [
+        14,
+        719,
+        18,
+        728
+      ],
+      "type": "label",
+      "confidence": 0.152,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "6",
+      "bbox": [
+        909,
+        712,
+        921,
+        721
+      ],
+      "bbox_global": [
+        909,
+        712,
+        921,
+        721
+      ],
+      "type": "label",
+      "confidence": 0.143,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "N",
+      "bbox": [
+        831,
+        684,
+        844,
+        694
+      ],
+      "bbox_global": [
+        831,
+        684,
+        844,
+        694
+      ],
+      "type": "label",
+      "confidence": 0.125,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "3",
+      "bbox": [
+        151,
+        774,
+        159,
+        781
+      ],
+      "bbox_global": [
+        151,
+        774,
+        159,
+        781
+      ],
+      "type": "label",
+      "confidence": 0.114,
+      "source_tile": "tile_00_01"
+    },
+    {
+      "text": "A",
+      "bbox": [
+        902,
+        683,
+        917,
+        693
+      ],
+      "bbox_global": [
+        902,
+        683,
+        917,
+        693
+      ],
+      "type": "label",
+      "confidence": 0.104,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "",
+      "bbox": [
+        373,
+        208,
+        384,
+        217
+      ],
+      "bbox_global": [
+        373,
+        208,
+        384,
+        217
+      ],
+      "type": "label",
+      "confidence": 0.0,
+      "source_tile": "tile_00_00"
+    },
+    {
+      "text": "",
+      "bbox": [
+        687,
+        709,
+        703,
+        720
+      ],
+      "bbox_global": [
+        687,
+        709,
+        703,
+        720
+      ],
+      "type": "label",
+      "confidence": 0.0,
+      "source_tile": "tile_01_01"
+    },
+    {
+      "text": "",
+      "bbox": [
+        967,
+        749,
+        982,
+        759
+      ],
+      "bbox_global": [
+        967,
+        749,
+        982,
+        759
+      ],
+      "type": "label",
+      "confidence": 0.0,
+      "source_tile": "tile_01_01"
+    }
+  ]
+}

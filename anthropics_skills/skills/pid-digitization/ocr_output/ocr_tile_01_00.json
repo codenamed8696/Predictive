@@ -1,0 +1,347 @@
+{
+  "tile_id": "tile_01_00",
+  "coordinate_system": "tile_relative_0_1000",
+  "tile_size": {
+    "width": 1866,
+    "height": 1666
+  },
+  "tile_position_global": {
+    "x1": 0,
+    "y1": 1365,
+    "x2": 1866,
+    "y2": 3031
+  },
+  "total_detections": 30,
+  "extractions": [
+    {
+      "text": "V232",
+      "bbox": [
+        147,
+        633,
+        165,
+        664
+      ],
+      "type": "valve_tag",
+      "confidence": 0.949
+    },
+    {
+      "text": "-LR NOTE",
+      "bbox": [
+        163,
+        683,
+        184,
+        749
+      ],
+      "type": "label",
+      "confidence": 0.964
+    },
+    {
+      "text": "C",
+      "bbox": [
+        171,
+        751,
+        175,
+        756
+      ],
+      "type": "label",
+      "confidence": 0.368
+    },
+    {
+      "text": "V/4'T",
+      "bbox": [
+        194,
+        581,
+        205,
+        605
+      ],
+      "type": "label",
+      "confidence": 0.746
+    },
+    {
+      "text": "1/4-T",
+      "bbox": [
+        205,
+        663,
+        218,
+        691
+      ],
+      "type": "label",
+      "confidence": 0.82
+    },
+    {
+      "text": "3/8*1",
+      "bbox": [
+        199,
+        832,
+        217,
+        866
+      ],
+      "type": "label",
+      "confidence": 0.901
+    },
+    {
+      "text": "PASS",
+      "bbox": [
+        255,
+        520,
+        271,
+        550
+      ],
+      "type": "label",
+      "confidence": 0.999
+    },
+    {
+      "text": "SURVEY",
+      "bbox": [
+        268,
+        517,
+        281,
+        555
+      ],
+      "type": "label",
+      "confidence": 0.983
+    },
+    {
+      "text": "1/21",
+      "bbox": [
+        266,
+        586,
+        282,
+        616
+      ],
+      "type": "label",
+      "confidence": 0.847
+    },
+    {
+      "text": "PORT",
+      "bbox": [
+        279,
+        521,
+        292,
+        550
+      ],
+      "type": "label",
+      "confidence": 0.995
+    },
+    {
+      "text": "v208",
+      "bbox": [
+        336,
+        585,
+        352,
+        615
+      ],
+      "type": "valve_tag",
+      "confidence": 0.881
+    },
+    {
+      "text": "V265",
+      "bbox": [
+        412,
+        851,
+        428,
+        879
+      ],
+      "type": "valve_tag",
+      "confidence": 0.843
+    },
+    {
+      "text": "3/81",
+      "bbox": [
+        426,
+        826,
+        444,
+        861
+      ],
+      "type": "label",
+      "confidence": 0.9
+    },
+    {
+      "text": "V866",
+      "bbox": [
+        439,
+        966,
+        454,
+        995
+      ],
+      "type": "valve_tag",
+      "confidence": 0.951
+    },
+    {
+      "text": "MM-585",
+      "bbox": [
+        521,
+        961,
+        534,
+        999
+      ],
+      "type": "equipment_tag",
+      "confidence": 0.997
+    },
+    {
+      "text": "3/8*T",
+      "bbox": [
+        581,
+        772,
+        594,
+        808
+      ],
+      "type": "label",
+      "confidence": 0.858
+    },
+    {
+      "text": "L11",
+      "bbox": [
+        588,
+        864,
+        606,
+        897
+      ],
+      "type": "label",
+      "confidence": 0.284
+    },
+    {
+      "text": "4L1",
+      "bbox": [
+        587,
+        921,
+        605,
+        953
+      ],
+      "type": "label",
+      "confidence": 0.51
+    },
+    {
+      "text": "V8978",
+      "bbox": [
+        604,
+        862,
+        619,
+        901
+      ],
+      "type": "valve_tag",
+      "confidence": 0.849
+    },
+    {
+      "text": "v8988",
+      "bbox": [
+        603,
+        916,
+        620,
+        957
+      ],
+      "type": "valve_tag",
+      "confidence": 0.853
+    },
+    {
+      "text": "1/4-",
+      "bbox": [
+        630,
+        594,
+        646,
+        620
+      ],
+      "type": "label",
+      "confidence": 0.931
+    },
+    {
+      "text": "V337",
+      "bbox": [
+        642,
+        594,
+        657,
+        622
+      ],
+      "type": "valve_tag",
+      "confidence": 0.977
+    },
+    {
+      "text": "SAMPLE CASK",
+      "bbox": [
+        652,
+        879,
+        666,
+        948
+      ],
+      "type": "label",
+      "confidence": 0.998
+    },
+    {
+      "text": "TK-2288",
+      "bbox": [
+        663,
+        892,
+        678,
+        936
+      ],
+      "type": "instrument_tag",
+      "confidence": 0.976
+    },
+    {
+      "text": "3/8*T",
+      "bbox": [
+        682,
+        773,
+        695,
+        808
+      ],
+      "type": "label",
+      "confidence": 0.884
+    },
+    {
+      "text": "PANEL",
+      "bbox": [
+        720,
+        505,
+        743,
+        557
+      ],
+      "type": "label",
+      "confidence": 1.0
+    },
+    {
+      "text": "FRONT",
+      "bbox": [
+        739,
+        505,
+        759,
+        557
+      ],
+      "type": "label",
+      "confidence": 1.0
+    },
+    {
+      "text": "POST ACCIDENT",
+      "bbox": [
+        828,
+        572,
+        852,
+        728
+      ],
+      "type": "label",
+      "confidence": 0.999
+    },
+    {
+      "text": "SAMPLE PANEL",
+      "bbox": [
+        849,
+        577,
+        869,
+        722
+      ],
+      "type": "label",
+      "confidence": 0.99
+    },
+    {
+      "text": "CP-419",
+      "bbox": [
+        864,
+        613,
+        888,
+        684
+      ],
+      "type": "equipment_tag",
+      "confidence": 0.987
+    }
+  ]
+}

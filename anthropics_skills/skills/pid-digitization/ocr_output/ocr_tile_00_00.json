@@ -1,0 +1,611 @@
+{
+  "tile_id": "tile_00_00",
+  "coordinate_system": "tile_relative_0_1000",
+  "tile_size": {
+    "width": 1866,
+    "height": 1667
+  },
+  "tile_position_global": {
+    "x1": 0,
+    "y1": 0,
+    "x2": 1866,
+    "y2": 1667
+  },
+  "total_detections": 54,
+  "extractions": [
+    {
+      "text": "222A",
+      "bbox": [
+        145,
+        93,
+        161,
+        123
+      ],
+      "type": "label",
+      "confidence": 0.718
+    },
+    {
+      "text": "1ZEA",
+      "bbox": [
+        147,
+        154,
+        163,
+        182
+      ],
+      "type": "label",
+      "confidence": 0.745
+    },
+    {
+      "text": "O8/8-WO",
+      "bbox": [
+        168,
+        30,
+        185,
+        82
+      ],
+      "type": "label",
+      "confidence": 0.501
+    },
+    {
+      "text": "1.D/1-WO",
+      "bbox": [
+        170,
+        268,
+        189,
+        316
+      ],
+      "type": "label",
+      "confidence": 0.662
+    },
+    {
+      "text": "SC2A",
+      "bbox": [
+        222,
+        380,
+        240,
+        409
+      ],
+      "type": "label",
+      "confidence": 0.794
+    },
+    {
+      "text": "192",
+      "bbox": [
+        242,
+        356,
+        260,
+        370
+      ],
+      "type": "label",
+      "confidence": 0.661
+    },
+    {
+      "text": "WO",
+      "bbox": [
+        259,
+        321,
+        271,
+        336
+      ],
+      "type": "label",
+      "confidence": 0.838
+    },
+    {
+      "text": "SS",
+      "bbox": [
+        271,
+        320,
+        287,
+        336
+      ],
+      "type": "label",
+      "confidence": 0.964
+    },
+    {
+      "text": "SS",
+      "bbox": [
+        274,
+        353,
+        298,
+        371
+      ],
+      "type": "label",
+      "confidence": 0.601
+    },
+    {
+      "text": "AROOO",
+      "bbox": [
+        280,
+        878,
+        298,
+        915
+      ],
+      "type": "label",
+      "confidence": 0.454
+    },
+    {
+      "text": "1E2A",
+      "bbox": [
+        347,
+        356,
+        363,
+        383
+      ],
+      "type": "label",
+      "confidence": 0.515
+    },
+    {
+      "text": "(PACKAGE UNIT)",
+      "bbox": [
+        350,
+        840,
+        367,
+        919
+      ],
+      "type": "label",
+      "confidence": 0.983
+    },
+    {
+      "text": "SNPEEG",
+      "bbox": [
+        379,
+        857,
+        395,
+        907
+      ],
+      "type": "label",
+      "confidence": 0.347
+    },
+    {
+      "text": "50202",
+      "bbox": [
+        386,
+        2,
+        401,
+        41
+      ],
+      "type": "label",
+      "confidence": 0.85
+    },
+    {
+      "text": "(1-0",
+      "bbox": [
+        389,
+        78,
+        400,
+        102
+      ],
+      "type": "label",
+      "confidence": 0.512
+    },
+    {
+      "text": "BEOGGA",
+      "bbox": [
+        392,
+        862,
+        409,
+        903
+      ],
+      "type": "label",
+      "confidence": 0.392
+    },
+    {
+      "text": "CC LOOP",
+      "bbox": [
+        401,
+        3,
+        416,
+        54
+      ],
+      "type": "label",
+      "confidence": 0.994
+    },
+    {
+      "text": "C12A",
+      "bbox": [
+        399,
+        405,
+        418,
+        433
+      ],
+      "type": "label",
+      "confidence": 0.699
+    },
+    {
+      "text": "1.0/1",
+      "bbox": [
+        424,
+        331,
+        437,
+        357
+      ],
+      "type": "label",
+      "confidence": 0.866
+    },
+    {
+      "text": "-LR NOTE 2",
+      "bbox": [
+        419,
+        699,
+        438,
+        780
+      ],
+      "type": "label",
+      "confidence": 0.932
+    },
+    {
+      "text": "2122",
+      "bbox": [
+        470,
+        406,
+        487,
+        431
+      ],
+      "type": "label",
+      "confidence": 0.636
+    },
+    {
+      "text": "9662",
+      "bbox": [
+        480,
+        126,
+        496,
+        155
+      ],
+      "type": "label",
+      "confidence": 0.952
+    },
+    {
+      "text": "ZB2A",
+      "bbox": [
+        479,
+        788,
+        497,
+        817
+      ],
+      "type": "label",
+      "confidence": 0.587
+    },
+    {
+      "text": "11",
+      "bbox": [
+        494,
+        130,
+        510,
+        147
+      ],
+      "type": "label",
+      "confidence": 0.944
+    },
+    {
+      "text": "EENA",
+      "bbox": [
+        503,
+        807,
+        517,
+        834
+      ],
+      "type": "label",
+      "confidence": 0.542
+    },
+    {
+      "text": "2\u222082",
+      "bbox": [
+        500,
+        860,
+        515,
+        889
+      ],
+      "type": "label",
+      "confidence": 0.712
+    },
+    {
+      "text": "2\u222082",
+      "bbox": [
+        498,
+        928,
+        514,
+        958
+      ],
+      "type": "label",
+      "confidence": 0.8
+    },
+    {
+      "text": "./1",
+      "bbox": [
+        514,
+        811,
+        527,
+        834
+      ],
+      "type": "label",
+      "confidence": 0.746
+    },
+    {
+      "text": "ld",
+      "bbox": [
+        514,
+        866,
+        527,
+        881
+      ],
+      "type": "label",
+      "confidence": 0.984
+    },
+    {
+      "text": "ld",
+      "bbox": [
+        512,
+        934,
+        527,
+        951
+      ],
+      "type": "label",
+      "confidence": 0.887
+    },
+    {
+      "text": "114/1",
+      "bbox": [
+        535,
+        480,
+        550,
+        508
+      ],
+      "type": "label",
+      "confidence": 0.502
+    },
+    {
+      "text": "NTAN",
+      "bbox": [
+        532,
+        762,
+        549,
+        803
+      ],
+      "type": "label",
+      "confidence": 0.3
+    },
+    {
+      "text": "2286",
+      "bbox": [
+        532,
+        893,
+        545,
+        921
+      ],
+      "type": "label",
+      "confidence": 0.634
+    },
+    {
+      "text": "-/",
+      "bbox": [
+        543,
+        767,
+        559,
+        796
+      ],
+      "type": "label",
+      "confidence": 0.512
+    },
+    {
+      "text": "ADd",
+      "bbox": [
+        544,
+        893,
+        558,
+        915
+      ],
+      "type": "label",
+      "confidence": 0.745
+    },
+    {
+      "text": "PEOEDS",
+      "bbox": [
+        562,
+        878,
+        577,
+        942
+      ],
+      "type": "label",
+      "confidence": 0.441
+    },
+    {
+      "text": "PER CHEMISTRY",
+      "bbox": [
+        575,
+        865,
+        587,
+        941
+      ],
+      "type": "label",
+      "confidence": 0.999
+    },
+    {
+      "text": "SET PRESSURE",
+      "bbox": [
+        586,
+        869,
+        598,
+        941
+      ],
+      "type": "label",
+      "confidence": 0.996
+    },
+    {
+      "text": ".D/1",
+      "bbox": [
+        601,
+        334,
+        612,
+        356
+      ],
+      "type": "label",
+      "confidence": 0.67
+    },
+    {
+      "text": "",
+      "bbox": [
+        678,
+        378,
+        698,
+        395
+      ],
+      "type": "label",
+      "confidence": 0.0
+    },
+    {
+      "text": "OCZA",
+      "bbox": [
+        687,
+        409,
+        701,
+        437
+      ],
+      "type": "label",
+      "confidence": 0.614
+    },
+    {
+      "text": "SS",
+      "bbox": [
+        694,
+        500,
+        709,
+        517
+      ],
+      "type": "label",
+      "confidence": 0.787
+    },
+    {
+      "text": "3",
+      "bbox": [
+        706,
+        373,
+        736,
+        397
+      ],
+      "type": "label",
+      "confidence": 0.582
+    },
+    {
+      "text": "R0",
+      "bbox": [
+        707,
+        499,
+        723,
+        517
+      ],
+      "type": "label",
+      "confidence": 0.277
+    },
+    {
+      "text": "(8-3)",
+      "bbox": [
+        747,
+        52,
+        760,
+        77
+      ],
+      "type": "label",
+      "confidence": 0.995
+    },
+    {
+      "text": "21908",
+      "bbox": [
+        761,
+        57,
+        774,
+        87
+      ],
+      "type": "label",
+      "confidence": 0.7
+    },
+    {
+      "text": "B8/2-38",
+      "bbox": [
+        764,
+        197,
+        782,
+        249
+      ],
+      "type": "label",
+      "confidence": 0.4
+    },
+    {
+      "text": "FL/A-AT",
+      "bbox": [
+        766,
+        343,
+        780,
+        388
+      ],
+      "type": "label",
+      "confidence": 0.399
+    },
+    {
+      "text": "\u00a3 81 SO007",
+      "bbox": [
+        773,
+        36,
+        787,
+        101
+      ],
+      "type": "label",
+      "confidence": 0.628
+    },
+    {
+      "text": "REACTOR COOLANT",
+      "bbox": [
+        783,
+        27,
+        797,
+        116
+      ],
+      "type": "label",
+      "confidence": 0.996
+    },
+    {
+      "text": "SAPMAE",
+      "bbox": [
+        794,
+        55,
+        805,
+        90
+      ],
+      "type": "label",
+      "confidence": 0.426
+    },
+    {
+      "text": "ERONNT",
+      "bbox": [
+        902,
+        479,
+        921,
+        527
+      ],
+      "type": "label",
+      "confidence": 0.529
+    },
+    {
+      "text": "PANAL",
+      "bbox": [
+        917,
+        479,
+        938,
+        527
+      ],
+      "type": "label",
+      "confidence": 0.624
+    },
+    {
+      "text": "PID- 1-SS-LR20520",
+      "bbox": [
+        962,
+        740,
+        994,
+        978
+      ],
+      "type": "label",
+      "confidence": 0.985
+    }
+  ]
+}
